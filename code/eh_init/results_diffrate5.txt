@@ -1,0 +1,20 @@
+Seeded runs (constraint-consistent seed), ray U=1.0; Richardson-extrapolated M, sigma_v, phi_v from h_s=h_v=0.05,0.025,0.0125
+columns: window | rate=dlnM/dv | lambda=|sV|+2dln|phi_v|/dv | lambda-lambda'/lambda | diff1=rate-lambda | diff2=rate-(lambda-lambda'/lambda) | M extrap. disagreement at window end
+k=0.5
+   [56,60]  rate 0.7193  lam 0.7127  lam-lam'/lam 0.7170  diff1 +0.0065  diff2 +0.0023   disagreement 0%
+   [60,64]  rate 0.7085  lam 0.7077  lam-lam'/lam 0.7079  diff1 +0.0009  diff2 +0.0007   disagreement 1%
+   [64,68]  rate 0.7083  lam 0.7092  lam-lam'/lam 0.7082  diff1 -0.0009  diff2 +0.0001   disagreement 1%
+   [68,72]  rate 0.7114  lam 0.7128  lam-lam'/lam 0.7114  diff1 -0.0015  diff2 -0.0001   disagreement 1%
+   [72,76]  rate 0.7154  lam 0.7169  lam-lam'/lam 0.7155  diff1 -0.0015  diff2 -0.0002   disagreement 1%
+k=1.5
+   [56,60]  rate 0.7268  lam 0.7099  lam-lam'/lam 0.7228  diff1 +0.0169  diff2 +0.0040   disagreement 4%
+   [60,64]  rate 0.6944  lam 0.6890  lam-lam'/lam 0.6930  diff1 +0.0054  diff2 +0.0014   disagreement 6%
+   [64,68]  rate 0.6840  lam 0.6830  lam-lam'/lam 0.6840  diff1 +0.0010  diff2 -0.0000   disagreement 10%
+   [68,72]  rate 0.6809  lam 0.6819  lam-lam'/lam 0.6819  diff1 -0.0011  diff2 -0.0010   disagreement 18%
+   [72,76]  rate 0.6799  lam 0.6826  lam-lam'/lam 0.6822  diff1 -0.0027  diff2 -0.0023   disagreement 31%
+k=2.5
+   [56,60]  rate 0.7336  lam 0.7142  lam-lam'/lam 0.7295  diff1 +0.0195  diff2 +0.0042   disagreement 6%
+   [60,64]  rate 0.6953  lam 0.6889  lam-lam'/lam 0.6938  diff1 +0.0064  diff2 +0.0015   disagreement 10%
+   [64,68]  rate 0.6822  lam 0.6810  lam-lam'/lam 0.6825  diff1 +0.0012  diff2 -0.0003   disagreement 16%
+   [68,72]  rate 0.6774  lam 0.6789  lam-lam'/lam 0.6792  diff1 -0.0015  diff2 -0.0018   disagreement 28%
+   [72,76]  rate 0.6749  lam 0.6789  lam-lam'/lam 0.6787  diff1 -0.0039  diff2 -0.0038   disagreement 51%

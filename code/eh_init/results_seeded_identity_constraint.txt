@@ -1,0 +1,54 @@
+== exact consequence mu_v = -8 pi r^2 (r_u/W) phi_v^2 (seeded data, k=1.5): ratio -> 1 as h^2 where M is accurate ==
+h 0.05
+  U=0.50 v=5  dmu/dv=3.21654e-04  rhs=3.21147e-04  ratio=1.00158
+  U=0.50 v=10  dmu/dv=1.54303e-05  rhs=1.53247e-05  ratio=1.00689
+  U=0.50 v=20  dmu/dv=8.82201e-07  rhs=5.28259e-07  ratio=1.67001
+  U=0.50 v=30  dmu/dv=2.33614e-06  rhs=1.61135e-08  ratio=144.98058
+  U=0.50 v=40  dmu/dv=-1.85780e-04  rhs=1.46777e-06  ratio=-126.57297
+  U=1.00 v=5  dmu/dv=2.18636e-04  rhs=2.17943e-04  ratio=1.00318
+  U=1.00 v=10  dmu/dv=1.79019e-06  rhs=1.19713e-06  ratio=1.49540
+  U=1.00 v=20  dmu/dv=1.47308e-04  rhs=1.41697e-04  ratio=1.03960
+  U=1.00 v=30  dmu/dv=1.67916e-02  rhs=1.68929e-02  ratio=0.99401
+  U=1.00 v=40  dmu/dv=2.95870e+00  rhs=3.34378e+00  ratio=0.88484
+h 0.025
+  U=0.50 v=5  dmu/dv=3.21227e-04  rhs=3.21100e-04  ratio=1.00039
+  U=0.50 v=10  dmu/dv=1.53367e-05  rhs=1.53102e-05  ratio=1.00173
+  U=0.50 v=20  dmu/dv=6.11934e-07  rhs=5.22958e-07  ratio=1.17014
+  U=0.50 v=30  dmu/dv=5.99127e-07  rhs=1.38942e-08  ratio=43.12065
+  U=0.50 v=40  dmu/dv=-4.81511e-05  rhs=1.61719e-06  ratio=-29.77459
+  U=1.00 v=5  dmu/dv=2.18104e-04  rhs=2.17931e-04  ratio=1.00079
+  U=1.00 v=10  dmu/dv=1.34684e-06  rhs=1.19858e-06  ratio=1.12369
+  U=1.00 v=20  dmu/dv=1.43139e-04  rhs=1.41737e-04  ratio=1.00990
+  U=1.00 v=30  dmu/dv=1.68909e-02  rhs=1.69162e-02  ratio=0.99850
+  U=1.00 v=40  dmu/dv=3.36662e+00  rhs=3.46392e+00  ratio=0.97191
+
+mu_v identity check (U~1, finest grid): v, dmu/dv, -8 pi r^2 r_u phi_v^2/W, ratio
+   v=50  3.0537e+02  3.3592e+02  0.90906
+   v=55  1.3991e+04  1.5429e+04  0.90676
+   v=60  4.7809e+05  5.4832e+05  0.87192
+   v=65  1.5273e+07  1.8862e+07  0.80969
+   v=70  4.6633e+08  6.5866e+08  0.70799
+   u-constraint residual v=0: max 1.12e-08 vs phi term max 1.41e-03
+   u-constraint residual v=30: max 1.10e-05 vs phi term max 8.47e-02
+   u-constraint residual v=50: max 1.38e-05 vs phi term max 4.66e-02
+done k=0.5 mu_f=5.9069e-03 kappa-(mu_f)=0.78931
+mu_v identity check (U~1, finest grid): v, dmu/dv, -8 pi r^2 r_u phi_v^2/W, ratio
+   v=50  3.1578e+01  8.8650e+01  0.35621
+   v=55  3.5539e+03  6.3969e+03  0.55556
+   v=60  8.3505e+04  2.2811e+05  0.36608
+   v=65  -5.0230e+05  7.1305e+06  -0.07044
+   v=70  -2.0209e+08  2.1747e+08  -0.92927
+   u-constraint residual v=0: max 1.12e-08 vs phi term max 1.41e-03
+   u-constraint residual v=30: max 1.12e-05 vs phi term max 7.44e-02
+   u-constraint residual v=50: max 1.14e-05 vs phi term max 5.98e-02
+done k=1.5 mu_f=9.9555e-03 kappa-(mu_f)=0.78482
+mu_v identity check (U~1, finest grid): v, dmu/dv, -8 pi r^2 r_u phi_v^2/W, ratio
+   v=50  -1.9883e+00  6.3017e+01  -0.03155
+   v=55  2.3034e+03  5.5529e+03  0.41482
+   v=60  3.7903e+04  2.0319e+05  0.18654
+   v=65  -2.3679e+06  6.3422e+06  -0.37335
+   v=70  -2.8605e+08  1.9137e+08  -1.49476
+   u-constraint residual v=0: max 1.12e-08 vs phi term max 1.41e-03
+   u-constraint residual v=30: max 1.12e-05 vs phi term max 7.05e-02
+   u-constraint residual v=50: max 1.15e-05 vs phi term max 6.35e-02
+done k=2.5 mu_f=1.1194e-02 kappa-(mu_f)=0.78342

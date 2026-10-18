@@ -1,0 +1,85 @@
+== static validation (A=B=0), (s,v) grid, errors vs exact static solution, 2nd-order ==
+h 0.2 0.2 nu 593 t=0.7 nan 0
+  v=20 U=0.01 dsig=-2.5e-08 dsV=2.3e-09 dlnrU=5.1e-06 | U=0.0995 dsig=-2.5e-07 dsV=2.8e-08 dlnrU=6.3e-06 | U=0.996 dsig=8.8e-06 dsV=6.5e-06 dlnrU=8.7e-05 | U=10 dsig=-1.3e-01 dsV=-9.1e-03 dlnrU=9.7e+00
+  v=50 U=0.01 dsig=-1.6e-07 dsV=1.4e-08 dlnrU=7.9e-06 | U=0.0995 dsig=-1.5e-06 dsV=3.9e-07 dlnrU=1.7e-05 | U=0.996 dsig=-1.6e-01 dsV=-9.7e-03 dlnrU=1.2e+01 | U=10 dsig=-3.6e-01 dsV=-9.4e-03 dlnrU=3.3e+01
+  v=100 U=0.01 dsig=-2.3e-07 dsV=3.3e-06 dlnrU=2.7e-05 | U=0.0995 dsig=-3.0e-01 dsV=-2.2e-02 dlnrU=1.4e+01 | U=0.996 dsig=-6.7e-01 dsV=-2.0e-02 dlnrU=5.1e+01 | U=10 dsig=-8.6e-01 dsV=-2.0e-02 dlnrU=7.3e+01
+h 0.1 0.1 nu 1184 t=1.6 nan 0
+  v=20 U=0.01 dsig=-6.3e-09 dsV=5.6e-10 dlnrU=1.3e-06 | U=0.1 dsig=-6.3e-08 dsV=7.0e-09 dlnrU=1.6e-06 | U=1 dsig=2.3e-06 dsV=1.7e-06 dlnrU=2.2e-05 | U=9.98 dsig=-3.3e-02 dsV=-2.3e-03 dlnrU=8.3e+00
+  v=50 U=0.01 dsig=-4.0e-08 dsV=3.6e-09 dlnrU=2.0e-06 | U=0.1 dsig=-3.8e-07 dsV=9.8e-08 dlnrU=4.3e-06 | U=1 dsig=-4.0e-02 dsV=-2.5e-03 dlnrU=1.0e+01 | U=9.98 dsig=-9.4e-02 dsV=-2.5e-03 dlnrU=3.2e+01
+  v=100 U=0.01 dsig=-5.7e-08 dsV=8.2e-07 dlnrU=6.7e-06 | U=0.1 dsig=-7.9e-02 dsV=-5.7e-03 dlnrU=1.3e+01 | U=1 dsig=-1.8e-01 dsV=-5.6e-03 dlnrU=5.0e+01 | U=9.98 dsig=-2.3e-01 dsV=-5.6e-03 dlnrU=7.2e+01
+h 0.05 0.05 nu 2368 t=5.5 nan 0
+  v=20 U=0.01 dsig=-1.6e-09 dsV=1.4e-10 dlnrU=3.2e-07 | U=0.1 dsig=-1.6e-08 dsV=1.8e-09 dlnrU=3.9e-07 | U=1 dsig=5.8e-07 dsV=4.2e-07 dlnrU=5.5e-06 | U=10 dsig=-8.4e-03 dsV=-5.9e-04 dlnrU=6.9e+00
+  v=50 U=0.01 dsig=-1.0e-08 dsV=9.0e-10 dlnrU=4.9e-07 | U=0.1 dsig=-9.4e-08 dsV=2.5e-08 dlnrU=1.1e-06 | U=1 dsig=-1.0e-02 dsV=-6.3e-04 dlnrU=8.9e+00 | U=10 dsig=-2.4e-02 dsV=-6.2e-04 dlnrU=3.1e+01
+  v=100 U=0.01 dsig=-1.4e-08 dsV=2.0e-07 dlnrU=1.7e-06 | U=0.1 dsig=-2.0e-02 dsV=-1.5e-03 dlnrU=1.2e+01 | U=1 dsig=-4.6e-02 dsV=-1.4e-03 dlnrU=4.9e+01 | U=10 dsig=-5.9e-02 dsV=-1.4e-03 dlnrU=7.1e+01
+
+== B=0.03 k=1.5 sigma_v vs kappa-(mu_f) ==
+h=0.05  t=3s  mu_f=9.9555e-03  kappa-(mu_f)=0.784821  static 0.795649  nan=780789
+   U=0.3  v=50 sV=0.16106 rate=-0.0914 [Ori 0.6848] M=4.32e+00 | v=60 sV=-0.78633 rate=-0.0110 [Ori 0.7015] M=5.28e-01 | v=70 sV=-0.78593 rate=0.0466 [Ori 0.7134] M=5.45e-01 | v=95 sV=-0.78627 rate=0.8210 [Ori 0.7322] M=1.40e+07
+   U=3  v=50 sV=-0.82657 rate=0.9636 [Ori 0.6848] M=-5.70e+11 | v=60 sV=-0.81004 rate=0.8407 [Ori 0.7015] M=-3.74e+15 | v=70 sV=-0.79999 rate=0.8185 [Ori 0.7134] M=-1.46e+19 | v=95 sV=-0.78834 rate=0.8229 [Ori 0.7322] M=-1.08e+28
+h=0.025  t=5s  mu_f=9.9555e-03  kappa-(mu_f)=0.784821  static 0.795649  nan=3122307
+   U=0.3  v=50 sV=0.16106 rate=-0.0913 [Ori 0.6848] M=4.32e+00 | v=60 sV=-0.78582 rate=-0.0110 [Ori 0.7015] M=5.28e-01 | v=70 sV=-0.78536 rate=-0.0005 [Ori 0.7134] M=5.22e-01 | v=95 sV=-0.78533 rate=0.8219 [Ori 0.7322] M=-1.59e+05
+   U=3  v=50 sV=-0.82742 rate=0.6156 [Ori 0.6848] M=3.48e+11 | v=60 sV=-0.81085 rate=1.1279 [Ori 0.7015] M=-3.55e+14 | v=70 sV=-0.80079 rate=0.8472 [Ori 0.7134] M=-3.16e+18 | v=95 sV=-0.78944 rate=0.8259 [Ori 0.7322] M=-2.94e+27
+
+== B=0.04 k=1.5 ==
+h=0.05  t=3s  mu_f=1.7727e-02  kappa-(mu_f)=0.775856  static 0.795649  nan=872973
+   U=0.3  v=50 sV=0.16203 rate=-0.0823 [Ori 0.6759] M=4.36e+00 | v=60 sV=-0.77778 rate=-0.0126 [Ori 0.6925] M=5.24e-01 | v=70 sV=-0.77729 rate=0.0239 [Ori 0.7044] M=5.29e-01 | v=95 sV=-0.77750 rate=0.8124 [Ori 0.7232] M=5.76e+06
+   U=3  v=50 sV=-0.89613 rate=0.8514 [Ori 0.6759] M=-1.60e+13 | v=60 sV=-0.84629 rate=0.9088 [Ori 0.6925] M=-1.83e+19 | v=70 sV=-0.81618 rate=0.8414 [Ori 0.7044] M=-1.07e+23 | v=95 sV=-0.77972 rate=0.8140 [Ori 0.7232] M=-8.67e+31
+h=0.025  t=5s  mu_f=1.7727e-02  kappa-(mu_f)=0.775856  static 0.795649  nan=3496329
+   U=0.3  v=50 sV=0.16203 rate=-0.0823 [Ori 0.6759] M=4.36e+00 | v=60 sV=-0.77725 rate=-0.0127 [Ori 0.6925] M=5.24e-01 | v=70 sV=-0.77670 rate=-0.0026 [Ori 0.7044] M=5.17e-01 | v=95 sV=-0.77654 rate=0.8144 [Ori 0.7232] M=-8.01e+05
+   U=3  v=50 sV=-0.90191 rate=0.7576 [Ori 0.6759] M=3.92e+15 | v=60 sV=-0.85191 rate=0.2866 [Ori 0.6925] M=2.86e+18 | v=70 sV=-0.82180 rate=0.9250 [Ori 0.7044] M=-2.29e+22 | v=95 sV=-0.78761 rate=0.8253 [Ori 0.7232] M=-3.47e+31
+
+== B=0.03 k=0.5 ==
+h=0.05  t=3s  mu_f=5.9116e-03  kappa-(mu_f)=0.789305  static 0.795649  nan=589684
+   U=0.3  v=50 sV=0.16028 rate=-0.0966 [Ori 0.7293] M=4.30e+00 | v=60 sV=-0.79140 rate=-0.0103 [Ori 0.7393] M=5.30e-01 | v=70 sV=-0.79204 rate=-0.0041 [Ori 0.7464] M=5.23e-01 | v=95 sV=-0.79260 rate=0.8319 [Ori 0.7577] M=-1.67e+06
+   U=3  v=50 sV=-0.87759 rate=0.6789 [Ori 0.7293] M=3.45e+12 | v=60 sV=-0.85362 rate=1.1674 [Ori 0.7393] M=-6.75e+15 | v=70 sV=-0.83690 rate=0.8917 [Ori 0.7464] M=-9.66e+19 | v=95 sV=-0.81284 rate=0.8519 [Ori 0.7577] M=-2.14e+29
+h=0.025  t=6s  mu_f=5.9116e-03  kappa-(mu_f)=0.789305  static 0.795649  nan=2380964
+   U=0.3  v=50 sV=0.16028 rate=-0.0966 [Ori 0.7293] M=4.30e+00 | v=60 sV=-0.79090 rate=-0.0103 [Ori 0.7393] M=5.30e-01 | v=70 sV=-0.79149 rate=0.0044 [Ori 0.7464] M=5.28e-01 | v=95 sV=-0.79171 rate=0.8502 [Ori 0.7577] M=-4.19e+06
+   U=3  v=50 sV=-0.87938 rate=0.7886 [Ori 0.7293] M=7.62e+12 | v=60 sV=-0.85549 rate=0.7504 [Ori 0.7393] M=1.70e+16 | v=70 sV=-0.83886 rate=0.6117 [Ori 0.7464] M=2.00e+19 | v=95 sV=-0.81564 rate=0.8741 [Ori 0.7577] M=-5.26e+28
+
+== local mass check mu_loc, kappa-(mu_loc) vs sigma_v ==
+B=0.03 k=1.5 h=0.025  mu_f=9.95552e-03 kappa-(mu_f)=0.784821
+  U=0.1 v=40  mu=9.95895e-03  kappa-(mu_loc)=0.784817   sigma_v=0.056661   -sigma_v-kappa-(mu_loc)=-8.41e-01
+  U=0.1 v=50  mu=9.95943e-03  kappa-(mu_loc)=0.784816   sigma_v=0.063339   -sigma_v-kappa-(mu_loc)=-8.48e-01
+  U=0.1 v=55  mu=9.95985e-03  kappa-(mu_loc)=0.784816   sigma_v=0.069397   -sigma_v-kappa-(mu_loc)=-8.54e-01
+  U=0.1 v=60  mu=9.96068e-03  kappa-(mu_loc)=0.784815   sigma_v=0.079407   -sigma_v-kappa-(mu_loc)=-8.64e-01
+  U=0.1 v=65  mu=9.96287e-03  kappa-(mu_loc)=0.784813   sigma_v=0.098106   -sigma_v-kappa-(mu_loc)=-8.83e-01
+  U=0.3 v=40  mu=9.99225e-03  kappa-(mu_loc)=0.784780   sigma_v=0.087049   -sigma_v-kappa-(mu_loc)=-8.72e-01
+  U=0.3 v=50  mu=1.00020e-02  kappa-(mu_loc)=0.784769   sigma_v=0.161065   -sigma_v-kappa-(mu_loc)=-9.46e-01
+  U=0.3 v=55  mu=9.89829e-03  kappa-(mu_loc)=0.784885   sigma_v=-0.784535   -sigma_v-kappa-(mu_loc)=-3.50e-04
+  U=0.3 v=60  mu=9.98878e-03  kappa-(mu_loc)=0.784783   sigma_v=-0.785817   -sigma_v-kappa-(mu_loc)=1.03e-03
+  U=0.3 v=65  mu=1.00481e-02  kappa-(mu_loc)=0.784717   sigma_v=-0.785330   -sigma_v-kappa-(mu_loc)=6.13e-04
+  U=1 v=40  mu=1.69777e-02  kappa-(mu_loc)=0.776741   sigma_v=-0.789463   -sigma_v-kappa-(mu_loc)=1.27e-02
+  U=1 v=50  mu=1.40413e+00  kappa-(mu_loc)=nan   sigma_v=-0.789542   -sigma_v-kappa-(mu_loc)=nan
+  U=1 v=55  mu=1.42204e+01  kappa-(mu_loc)=nan   sigma_v=-0.788994   -sigma_v-kappa-(mu_loc)=nan
+  U=1 v=60  mu=-1.05439e+03  kappa-(mu_loc)=nan   sigma_v=-0.788390   -sigma_v-kappa-(mu_loc)=nan
+  U=1 v=65  mu=-1.12670e+05  kappa-(mu_loc)=nan   sigma_v=-0.787818   -sigma_v-kappa-(mu_loc)=nan
+B=0.03 k=0.5 h=0.025  mu_f=5.91161e-03 kappa-(mu_f)=0.789305
+  U=0.1 v=40  mu=5.84367e-03  kappa-(mu_loc)=0.789379   sigma_v=0.056730   -sigma_v-kappa-(mu_loc)=-8.46e-01
+  U=0.1 v=50  mu=5.87451e-03  kappa-(mu_loc)=0.789346   sigma_v=0.063451   -sigma_v-kappa-(mu_loc)=-8.53e-01
+  U=0.1 v=55  mu=5.88491e-03  kappa-(mu_loc)=0.789334   sigma_v=0.069556   -sigma_v-kappa-(mu_loc)=-8.59e-01
+  U=0.1 v=60  mu=5.89394e-03  kappa-(mu_loc)=0.789324   sigma_v=0.079661   -sigma_v-kappa-(mu_loc)=-8.69e-01
+  U=0.1 v=65  mu=5.90349e-03  kappa-(mu_loc)=0.789314   sigma_v=0.098586   -sigma_v-kappa-(mu_loc)=-8.88e-01
+  U=0.3 v=40  mu=5.89035e-03  kappa-(mu_loc)=0.789328   sigma_v=0.087328   -sigma_v-kappa-(mu_loc)=-8.77e-01
+  U=0.3 v=50  mu=5.96019e-03  kappa-(mu_loc)=0.789252   sigma_v=0.160285   -sigma_v-kappa-(mu_loc)=-9.50e-01
+  U=0.3 v=55  mu=6.03790e-03  kappa-(mu_loc)=0.789167   sigma_v=-0.788453   -sigma_v-kappa-(mu_loc)=-7.14e-04
+  U=0.3 v=60  mu=6.59513e-03  kappa-(mu_loc)=0.788556   sigma_v=-0.790901   -sigma_v-kappa-(mu_loc)=2.35e-03
+  U=0.3 v=65  mu=7.18999e-03  kappa-(mu_loc)=0.787901   sigma_v=-0.791101   -sigma_v-kappa-(mu_loc)=3.20e-03
+  U=1 v=40  mu=3.00031e-02  kappa-(mu_loc)=0.760697   sigma_v=-0.800096   -sigma_v-kappa-(mu_loc)=3.94e-02
+  U=1 v=50  mu=1.79960e+01  kappa-(mu_loc)=nan   sigma_v=-0.802390   -sigma_v-kappa-(mu_loc)=nan
+  U=1 v=55  mu=6.25437e+02  kappa-(mu_loc)=nan   sigma_v=-0.802004   -sigma_v-kappa-(mu_loc)=nan
+  U=1 v=60  mu=2.09926e+04  kappa-(mu_loc)=nan   sigma_v=-0.801249   -sigma_v-kappa-(mu_loc)=nan
+  U=1 v=65  mu=6.45157e+05  kappa-(mu_loc)=nan   sigma_v=-0.800348   -sigma_v-kappa-(mu_loc)=nan
+
+== B=0.05 collapse location (r->0 at large U) ==
+first column with NaN: U=2.926
+U=2.926 first NaN at v=39.15
+   v=38.85 r=0.04682 sig=-232.821 rU=-2.837e+00 rV=-7.384e-02 sU=-9.218e+03 sV=-7.190e+02 phiU=-2.177e+02 phiV=-1.316e+01
+   v=38.90 r=0.04446 sig=-273.670 rU=-3.033e+00 rV=-9.304e-02 sU=-1.217e+04 sV=-1.158e+03 phiU=-2.655e+02 phiV=-1.946e+01
+   v=38.95 r=0.04147 sig=-347.724 rU=-3.311e+00 rV=-1.279e-01 sU=-1.757e+04 sV=-2.175e+03 phiU=-3.451e+02 phiV=-3.277e+01
+   v=39.00 r=0.03723 sig=-517.485 rU=-3.766e+00 rV=-2.084e-01 sU=-3.009e+04 sV=-5.431e+03 phiU=-5.075e+02 phiV=-7.052e+01
+   v=39.05 r=0.02929 sig=-1166.342 rU=-4.818e+00 rV=-5.328e-01 sU=-7.894e+04 sV=-2.640e+04 phiU=-1.035e+03 phiV=-2.785e+02
+   v=39.10 r=-0.04189 sig=-31032.576 rU=-4.185e+01 rV=-3.485e+01 sU=-3.324e+06 sV=-3.064e+06 phiU=-4.719e+04 phiV=-4.454e+04
+U=5.425 first NaN at v=2.60
+   v=2.30 r=0.48809 sig=-8.768 rU=-4.646e-03 rV=-8.913e-01 sU=-8.370e-01 sV=-4.838e+00 phiU=-5.293e-03 phiV=-9.760e-01
+   v=2.35 r=0.44137 sig=-9.035 rU=-5.146e-03 rV=-9.804e-01 sU=-8.429e-01 sV=-5.872e+00 phiU=-6.473e-03 phiV=-1.188e+00
+   v=2.40 r=0.38938 sig=-9.368 rU=-5.848e-03 rV=-1.105e+00 sU=-8.522e-01 sV=-7.505e+00 phiU=-8.340e-03 phiV=-1.520e+00

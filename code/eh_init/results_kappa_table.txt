@@ -1,0 +1,8 @@
+M=1.350  kappa-=0.1111 kappa+=0.0724  ratio 1.535  kappa- - 2 kappa+ = -0.0337   T0=1.452
+M=1.400  kappa-=0.1640 kappa+=0.0901  ratio 1.821  kappa- - 2 kappa+ = -0.0161   T0=1.733
+M=1.435  kappa-=0.1943 kappa+=0.0972  ratio 1.999  kappa- - 2 kappa+ = -0.0001   T0=1.920
+M=1.500  kappa-=0.2422 kappa+=0.1051  ratio 2.305  kappa- - 2 kappa+ = +0.0321   T0=2.266
+M=1.600  kappa-=0.3025 kappa+=0.1101  ratio 2.747  kappa- - 2 kappa+ = +0.0822   T0=2.812
+M=2.000  kappa-=0.4626 kappa+=0.1054  ratio 4.388  kappa- - 2 kappa+ = +0.2518   T0=5.326
+M=3.000  kappa-=0.6530 kappa+=0.0783  ratio 8.343  kappa- - 2 kappa+ = +0.4965   T0=14.325
+M=5.000  kappa-=0.7956 kappa+=0.0490  ratio 16.248  kappa- - 2 kappa+ = +0.6977   T0=44.304

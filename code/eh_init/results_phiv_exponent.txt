@@ -1,0 +1,24 @@
+k=0.5  H+ tail exponent p0=k+1=1.5
+  U=1.00 v=40 phi_v=1.173e-02  local exponent p=17.19  (2p=34.38)  phi_U=4.41e-02
+  U=1.00 v=48 phi_v=-3.124e-03  local exponent p=-10.30  (2p=-20.59)  phi_U=4.49e-02
+  U=1.00 v=56 phi_v=-3.650e-03  local exponent p=0.98  (2p=1.96)  phi_U=4.39e-02
+  U=1.00 v=60 phi_v=-3.323e-03  local exponent p=1.56  (2p=3.12)  phi_U=4.34e-02
+  U=1.00 v=64 phi_v=-2.974e-03  local exponent p=1.81  (2p=3.61)  phi_U=4.29e-02
+  U=1.00 v=68 phi_v=-2.653e-03  local exponent p=1.93  (2p=3.85)  phi_U=4.25e-02
+  U=1.00 v=72 phi_v=-2.371e-03  local exponent p=1.99  (2p=3.97)  phi_U=4.22e-02
+k=1.5  H+ tail exponent p0=k+1=2.5
+  U=1.00 v=40 phi_v=1.644e-02  local exponent p=12.11  (2p=24.22)  phi_U=5.39e-02
+  U=1.00 v=48 phi_v=-7.664e-04  local exponent p=0.82  (2p=1.65)  phi_U=5.64e-02
+  U=1.00 v=56 phi_v=-1.773e-03  local exponent p=0.82  (2p=1.63)  phi_U=5.58e-02
+  U=1.00 v=60 phi_v=-1.580e-03  local exponent p=2.09  (2p=4.19)  phi_U=5.55e-02
+  U=1.00 v=64 phi_v=-1.350e-03  local exponent p=2.65  (2p=5.30)  phi_U=5.52e-02
+  U=1.00 v=68 phi_v=-1.137e-03  local exponent p=2.94  (2p=5.87)  phi_U=5.49e-02
+  U=1.00 v=72 phi_v=-9.563e-04  local exponent p=3.09  (2p=6.19)  phi_U=5.47e-02
+k=2.5  H+ tail exponent p0=k+1=3.5
+  U=1.00 v=40 phi_v=1.747e-02  local exponent p=11.65  (2p=23.30)  phi_U=5.67e-02
+  U=1.00 v=48 phi_v=-4.306e-04  local exponent p=4.11  (2p=8.22)  phi_U=5.97e-02
+  U=1.00 v=56 phi_v=-1.575e-03  local exponent p=0.55  (2p=1.10)  phi_U=5.92e-02
+  U=1.00 v=60 phi_v=-1.416e-03  local exponent p=2.03  (2p=4.06)  phi_U=5.89e-02
+  U=1.00 v=64 phi_v=-1.211e-03  local exponent p=2.65  (2p=5.30)  phi_U=5.86e-02
+  U=1.00 v=68 phi_v=-1.019e-03  local exponent p=2.97  (2p=5.93)  phi_U=5.84e-02
+  U=1.00 v=72 phi_v=-8.554e-04  local exponent p=3.13  (2p=6.26)  phi_U=5.81e-02

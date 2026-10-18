@@ -1,0 +1,5 @@
+mN=5  kappa+=0.04897 kappa-=0.79565  r-=1.057475 r+=9.897927
+R1 (difference of T(w1+-d), d=0.0002): 0.64423 +0.0e+00j
+R1 (contour, radius 0.3 kappa+, 64 points): 0.64422 +8.1e-07j
+R1 (contour, radius 0.5 kappa+, 64 points): 0.64423 -1.5e-06j
+T(0)=(1+r+^2/r-^2)/2 = 44.3045 ; A(w=1e-3) = 44.2979 +4.1e-01j ; difference -0.0066

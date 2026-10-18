@@ -1,0 +1,52 @@
+m_N=1.4  r-=1.42919 r+=2.24390 kappa-=0.16398 kappa+=0.09006  kappa-/kappa+=1.821   T(0)=(1+(r+/r-)^2)/2=1.733
+  tau=  -2  K_PDE 1.6340e-01  K_ODE 1.6347e-01  ratio 0.9996
+  tau=   0  K_PDE 4.4620e-01  K_ODE 4.4627e-01  ratio 0.9998
+  tau=   5  K_PDE 7.3738e-03  K_ODE 7.3479e-03  ratio 1.0035
+  tau=  10  K_PDE 5.7876e-03  K_ODE 5.7654e-03  ratio 1.0039
+  tau=  20  K_PDE 3.6773e-03  K_ODE 3.6664e-03  ratio 1.0030
+  tau=  30  K_PDE 1.9090e-03  K_ODE 1.9056e-03  ratio 1.0018
+  tau=  40  K_PDE 8.8199e-04  K_ODE 8.8142e-04  ratio 1.0006
+  tau=  60  K_PDE 1.6084e-04  K_ODE 1.6104e-04  ratio 0.9987
+  tau=  80  K_PDE 2.7217e-05  K_ODE 2.7295e-05  ratio 0.9971
+  tau= 100  K_PDE 4.5165e-06  K_ODE 4.5361e-06  ratio 0.9957
+  local decay rate of K_PDE at tau=60,80,100: 0.0877 0.0895 0.0900   (kappa_+ = 0.0901)
+  int K_PDE (all tau, trapezoid, tail e^{-kp}) = 1.733 vs T0 1.733
+m_N=1.6  r-=1.29662 r+=2.78845 kappa-=0.30249 kappa+=0.11013  kappa-/kappa+=2.747   T(0)=(1+(r+/r-)^2)/2=2.812
+  tau=  -2  K_PDE 2.2660e-01  K_ODE 2.2657e-01  ratio 1.0001
+  tau=   0  K_PDE 6.2831e-01  K_ODE 6.2815e-01  ratio 1.0003
+  tau=   5  K_PDE 4.0277e-02  K_ODE 4.0178e-02  ratio 1.0025
+  tau=  10  K_PDE 2.8618e-02  K_ODE 2.8555e-02  ratio 1.0022
+  tau=  20  K_PDE 1.0741e-02  K_ODE 1.0726e-02  ratio 1.0014
+  tau=  30  K_PDE 3.5339e-03  K_ODE 3.5305e-03  ratio 1.0010
+  tau=  40  K_PDE 1.1571e-03  K_ODE 1.1563e-03  ratio 1.0007
+  tau=  60  K_PDE 1.2658e-04  K_ODE 1.2656e-04  ratio 1.0002
+  tau=  80  K_PDE 1.3966e-05  K_ODE 1.3970e-05  ratio 0.9997
+  tau= 100  K_PDE 1.5426e-06  K_ODE 1.5437e-06  ratio 0.9993
+  local decay rate of K_PDE at tau=60,80,100: 0.1103 0.1102 0.1102   (kappa_+ = 0.1101)
+  int K_PDE (all tau, trapezoid, tail e^{-kp}) = 2.814 vs T0 2.812
+m_N=2  r-=1.19394 r+=3.70928 kappa-=0.46257 kappa+=0.10541  kappa-/kappa+=4.388   T(0)=(1+(r+/r-)^2)/2=5.326
+  tau=  -2  K_PDE 3.3721e-01  K_ODE 3.3715e-01  ratio 1.0002
+  tau=   0  K_PDE 9.7019e-01  K_ODE 9.6984e-01  ratio 1.0004
+  tau=   5  K_PDE 1.5665e-01  K_ODE 1.5626e-01  ratio 1.0025
+  tau=  10  K_PDE 8.9876e-02  K_ODE 8.9679e-02  ratio 1.0022
+  tau=  20  K_PDE 2.5379e-02  K_ODE 2.5333e-02  ratio 1.0018
+  tau=  30  K_PDE 8.0323e-03  K_ODE 8.0184e-03  ratio 1.0017
+  tau=  40  K_PDE 2.7081e-03  K_ODE 2.7035e-03  ratio 1.0017
+  tau=  60  K_PDE 3.2396e-04  K_ODE 3.2340e-04  ratio 1.0017
+  tau=  80  K_PDE 3.9278e-05  K_ODE 3.9211e-05  ratio 1.0017
+  tau= 100  K_PDE 4.7699e-06  K_ODE 4.7617e-06  ratio 1.0017
+  local decay rate of K_PDE at tau=60,80,100: 0.1056 0.1054 0.1054   (kappa_+ = 0.1054)
+  int K_PDE (all tau, trapezoid, tail e^{-kp}) = 5.332 vs T0 5.326
+m_N=3  r-=1.10740 r+=5.82305 kappa-=0.65301 kappa+=0.07827  kappa-/kappa+=8.343   T(0)=(1+(r+/r-)^2)/2=14.325
+  tau=  -2  K_PDE 6.1518e-01  K_ODE 6.1506e-01  ratio 1.0002
+  tau=   0  K_PDE 1.9245e+00  K_ODE 1.9231e+00  ratio 1.0007
+  tau=   5  K_PDE 6.4339e-01  K_ODE 6.4012e-01  ratio 1.0051
+  tau=  10  K_PDE 3.0975e-01  K_ODE 3.0819e-01  ratio 1.0050
+  tau=  20  K_PDE 9.4668e-02  K_ODE 9.4238e-02  ratio 1.0046
+  tau=  30  K_PDE 3.7392e-02  K_ODE 3.7225e-02  ratio 1.0045
+  tau=  40  K_PDE 1.6093e-02  K_ODE 1.6021e-02  ratio 1.0045
+  tau=  60  K_PDE 3.2376e-03  K_ODE 3.2224e-03  ratio 1.0047
+  tau=  80  K_PDE 6.7158e-04  K_ODE 6.6826e-04  ratio 1.0050
+  tau= 100  K_PDE 1.4018e-04  K_ODE 1.3944e-04  ratio 1.0052
+  local decay rate of K_PDE at tau=60,80,100: 0.0790 0.0784 0.0783   (kappa_+ = 0.0783)
+  int K_PDE (all tau, trapezoid, tail e^{-kp}) = 14.368 vs T0 14.325

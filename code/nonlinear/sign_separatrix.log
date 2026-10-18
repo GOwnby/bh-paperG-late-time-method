@@ -1,0 +1,12 @@
+A=0.02 B=0.002 h=0.04: sign change of r_u(v=100) at u_*=-1.8790
+  v0=30: zero of y(v0,u)-y_sep(v0,u) at u=-1.8790 (u_*-u = +0.0000); y_sep=0.4990, y=0.4990 at that point; slope d(y-y_sep)/du=5.270e+04
+  v0=40: zero of y(v0,u)-y_sep(v0,u) at u=-1.8790 (u_*-u = +0.0000); y_sep=0.4990, y=0.4990 at that point; slope d(y-y_sep)/du=1.504e+08
+  v0=50: zero of y(v0,u)-y_sep(v0,u) at u=-1.8790 (u_*-u = +0.0000); y_sep=0.4990, y=0.4990 at that point; slope d(y-y_sep)/du=4.292e+11
+A=0.01 B=0.01 h=0.04: sign change of r_u(v=100) at u_*=-1.1565
+  v0=30: zero of y(v0,u)-y_sep(v0,u) at u=-1.1565 (u_*-u = +0.0000); y_sep=0.4715, y=0.4715 at that point; slope d(y-y_sep)/du=4.006e+05
+  v0=40: zero of y(v0,u)-y_sep(v0,u) at u=-1.1565 (u_*-u = +0.0000); y_sep=0.4715, y=0.4715 at that point; slope d(y-y_sep)/du=1.143e+09
+  v0=50: zero of y(v0,u)-y_sep(v0,u) at u=-1.1565 (u_*-u = +0.0000); y_sep=0.4715, y=0.4714 at that point; slope d(y-y_sep)/du=3.263e+12
+A=0.005 B=0.001 h=0.04: sign change of r_u(v=100) at u_*=-1.5430
+  v0=30: zero of y(v0,u)-y_sep(v0,u) at u=-1.5430 (u_*-u = +0.0000); y_sep=0.4998, y=0.4998 at that point; slope d(y-y_sep)/du=2.510e+04
+  v0=40: zero of y(v0,u)-y_sep(v0,u) at u=-1.5430 (u_*-u = +0.0000); y_sep=0.4998, y=0.4998 at that point; slope d(y-y_sep)/du=7.163e+07
+  v0=50: zero of y(v0,u)-y_sep(v0,u) at u=-1.5430 (u_*-u = +0.0000); y_sep=0.4998, y=0.4998 at that point; slope d(y-y_sep)/du=2.044e+11
