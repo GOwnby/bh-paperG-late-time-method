@@ -1,8 +1,10 @@
-﻿cff-version: 1.2.0
+cff-version: 1.2.0
 message: "If you use this software or manuscript, please cite it as below."
+title: "Late-Time Mass Inflation in Double-Null Evolutions: Event-Horizon-Regular Data, the Interior Linear Response and Exact Integration Along a Ray"
+abstract: "LaTeX source, compiled PDF, teleological event-horizon data generators, interior linear-response transfer function solvers, and constraint-projected ray integration code for Paper G."
 authors:
   - family-names: "Ownby"
     given-names: "Gracen"
-title: "Late-Time Mass Inflation in Double-Null Evolutions: Event-Horizon-Regular Data, the Interior Linear Response and Exact Integration Along a Ray"
-version: "v1.0.0"
+version: "v1.0.1"
 date-released: "2026-10-18"
+license: "CC-BY-4.0"
