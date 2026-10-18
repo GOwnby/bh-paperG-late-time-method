@@ -1,3 +1,7 @@
+# Late-Time Mass Inflation in Double-Null Evolutions: Event-Horizon-Regular Data, the Interior Linear Response and Exact Integration Along a Ray
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23455606.svg)](https://doi.org/10.5281/zenodo.23455606)
+
 # Paper G — Late-time mass inflation in double-null evolutions (method paper)
 
 Split from Paper E on 2026-10-10. Contains Sections 3–5 of this paper = the former Sections 6.7–6.9 of the 39-page Paper E
