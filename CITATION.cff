@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 message: "If you use this software or manuscript, please cite it as below."
 title: "Late-Time Mass Inflation in Double-Null Evolutions: Event-Horizon-Regular Data, the Interior Linear Response and Exact Integration Along a Ray"
-abstract: "LaTeX source, compiled PDF, teleological event-horizon data generators, interior linear-response transfer function solvers, and constraint-projected ray integration code for Paper G."
+abstract: "Mass inflation at an inner horizon is a late-time phenomenon: the mass grows like exp(kappa_- v), and a double-null evolution reaches only v of order 10^2 to 3x10^2, with a truncation error that itself grows with v. The paper develops and tests a method for this regime in a system whose static interior and ray equations are exact (no published evolution is reproduced): the spherical Einstein-nonlinear-electrodynamics-massless-scalar system with an additive closure M = mu + M_N(r), whose static interior is a Hayward-type regular black hole. (1) With data regular on the event horizon, the metric exponent at the Cauchy horizon follows the surface gravity of the accumulated mass, kappa_-(mu_f), not the static one. (2) The ingoing flux at the Cauchy horizon is the linear response of the static interior to the horizon flux; its kernel follows from the interior wave equation, decays at kappa_+, and reproduces the measured flux to 4e-4 at B = 0.003. (3) The field equations integrate exactly along a ray; this reproduces the Romberg-extrapolated PDE mass to 6e-5 (k = 3/2) and 2e-6 (k = 1/2) up to v = 108, and a constraint-projected PDE mass agrees with it in ln M to 1.4e-6 (B = 0.03) and 2.3e-6 (B = 0.003) up to v = 280, where M ~ e^160 to e^180. (4) In a model driven by the kernel flux beyond v = 250, the ray integration reaches the Ori tail law in M at v of order 10^3."
 authors:
   - family-names: "Ownby"
     given-names: "Gracen"
-version: "v1.0.1"
-doi: "10.5281/zenodo.23455606"
-date-released: "2026-10-18"
-url: "https://doi.org/10.5281/zenodo.23455606"
-license: "CC-BY-4.0"
+version: "1.1.0"
+doi: "10.5281/zenodo.23455605"
+date-released: "2026-10-20"
+url: "https://doi.org/10.5281/zenodo.23455605"
+license: "CC-BY-4.0"   # manuscript, figures, data; code is MIT (see LICENSE.md)

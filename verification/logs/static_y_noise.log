@@ -1,0 +1,16 @@
+# step static_y_noise
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 static_y_noise.py
+# return code 0, 1.0 s, 0.2 s cpu
+# ---- stdout
+static y (exact 1/2); h = ['0.05', '0.025', '0.0125']
+v= 40 single grids -7.939e-01 1.775e-01 4.194e-01 | Romberg 2 grids 0.50008, 3 grids 0.5
+v= 50 single grids -3.706e+03 -9.209e+02 -2.295e+02 | Romberg 2 grids 0.93815, 3 grids 0.49873
+v= 60 single grids -1.062e+07 -2.632e+06 -6.566e+05 | Romberg 2 grids 1838.4, 3 grids -6.5258
+v= 80 single grids -8.714e+13 -2.148e+13 -5.351e+12 | Romberg 2 grids 2.5308e+10, 3 grids -1.6249e+08
+v=100 single grids -7.167e+20 -1.754e+20 -4.361e+19 | Romberg 2 grids 3.1259e+17, 3 grids -3.0846e+15
+v=108 single grids -4.188e+23 -1.021e+23 -2.536e+22 | Romberg 2 grids 2.1564e+20, 3 grids -2.5194e+18
+
+# ---- stderr
+

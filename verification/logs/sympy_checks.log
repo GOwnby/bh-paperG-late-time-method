@@ -1,0 +1,38 @@
+# step sympy_checks
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 sympy_checks.py
+# return code 0, 34.0 s, 7.3 s cpu
+# ---- stdout
+CHECK S1_uu_constraint : PASS 
+CHECK S1_vv_constraint : PASS 
+CHECK S1_dn1 : PASS 
+CHECK S1_dn2 : PASS 
+CHECK S1_dn3 : PASS 
+CHECK S1_remaining_components : PASS 
+CHECK S1_misner_sharp : PASS 
+CHECK S1_negative_control_dn2 : PASS 
+CHECK S1_negative_control_dn1 : PASS 
+CHECK S1_negative_control_constraint : PASS 
+CHECK S1_scalar_T_uv_vanishes : PASS 
+CHECK S2_rho_prime : PASS 
+CHECK S2_lny_prime : PASS 
+CHECK S2_M_of_y_rho : PASS 
+CHECK S2_rayrate : PASS 
+CHECK S3_mu_v : PASS 
+CHECK S4_u_constraint_integral : PASS 
+CHECK S5_wave_equation_EF : PASS 
+CHECK S5_frobenius_a : PASS 
+CHECK S5_recursion_denominators : PASS 
+CHECK S5_static_equation : PASS 
+CHECK S5_static_solution : PASS 
+CHECK S5_T0_gain : PASS 
+CHECK S5_outgoing_ray : PASS 
+CHECK S6_RN_kappas : PASS 
+CHECK S6_RN_T0_equals_ori_b0 : PASS 
+CHECK S7_filter_a1 : PASS (a1 = p/kappa)
+CHECK S7_q_limit_equals_p : PASS (lim (kappa - dlnM/dv) v = p; p = 2k+2 for a flux phi_v^2 ~ v^-(2k+2))
+SUMMARY sympy_checks: 28 checks, 0 failed
+
+# ---- stderr
+

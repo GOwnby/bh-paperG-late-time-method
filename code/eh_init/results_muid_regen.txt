@@ -1,0 +1,23 @@
+== exact consequence mu_v = -8 pi r^2 (r_u/W) phi_v^2 (seeded data, k=1.5): ratio -> 1 as h^2 where M is accurate ==
+h 0.05
+  U=0.50 v=5  dmu/dv=3.21654e-04  rhs=3.21147e-04  ratio=1.00158
+  U=0.50 v=10  dmu/dv=1.54303e-05  rhs=1.53247e-05  ratio=1.00689
+  U=0.50 v=20  dmu/dv=8.82201e-07  rhs=5.28259e-07  ratio=1.67001
+  U=0.50 v=30  dmu/dv=2.33614e-06  rhs=1.61135e-08  ratio=144.98058
+  U=0.50 v=40  dmu/dv=-1.85780e-04  rhs=1.46777e-06  ratio=-126.57297
+  U=1.00 v=5  dmu/dv=2.18636e-04  rhs=2.17943e-04  ratio=1.00318
+  U=1.00 v=10  dmu/dv=1.79019e-06  rhs=1.19713e-06  ratio=1.49540
+  U=1.00 v=20  dmu/dv=1.47308e-04  rhs=1.41697e-04  ratio=1.03960
+  U=1.00 v=30  dmu/dv=1.67916e-02  rhs=1.68929e-02  ratio=0.99401
+  U=1.00 v=40  dmu/dv=2.95870e+00  rhs=3.34378e+00  ratio=0.88484
+h 0.025
+  U=0.50 v=5  dmu/dv=3.21227e-04  rhs=3.21100e-04  ratio=1.00039
+  U=0.50 v=10  dmu/dv=1.53367e-05  rhs=1.53102e-05  ratio=1.00173
+  U=0.50 v=20  dmu/dv=6.11934e-07  rhs=5.22958e-07  ratio=1.17014
+  U=0.50 v=30  dmu/dv=5.99127e-07  rhs=1.38942e-08  ratio=43.12065
+  U=0.50 v=40  dmu/dv=-4.81511e-05  rhs=1.61719e-06  ratio=-29.77459
+  U=1.00 v=5  dmu/dv=2.18104e-04  rhs=2.17931e-04  ratio=1.00079
+  U=1.00 v=10  dmu/dv=1.34684e-06  rhs=1.19858e-06  ratio=1.12369
+  U=1.00 v=20  dmu/dv=1.43139e-04  rhs=1.41737e-04  ratio=1.00990
+  U=1.00 v=30  dmu/dv=1.68909e-02  rhs=1.69162e-02  ratio=0.99850
+  U=1.00 v=40  dmu/dv=3.36662e+00  rhs=3.46392e+00  ratio=0.97191

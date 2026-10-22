@@ -1,0 +1,68 @@
+# step e13_errconst
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 e13_errconst.py gen3_B0.03_k1.5_v300.json 2
+#   /usr/bin/python3 e13_errconst.py gen3_B0.03_k1.5_v300.json 0
+#   /usr/bin/python3 e13_errconst.py gen3_B0.003_k1.5_v300.json 2
+#   /usr/bin/python3 e13_errconst.py gen3_B0.003_k1.5_v300.json 0
+#   /usr/bin/python3 e13_errconst.py gen3_B0.03_k0.5_v300.json 2
+#   /usr/bin/python3 e13_errconst.py gen3_B0.03_k0.5_v300.json 0
+# return code 0, 66.3 s, 15.5 s cpu
+# ---- stdout
+gen3_B0.03_k1.5_v300.json k=1.5 B=0.03 ray s=271.2: C_rho(v)=(rho_h/rho_C-1)/h^2 [h=0.00625], C_y=(y_e/y_c-1)/h^2, and ratio of C_rho between h=0.00625 and h=0.003125
+  v= 40  C_rho=-1.799e+02   (h-ratio of errors 4.00)   C_y=-71.14   
+  v= 50  C_rho=-6.897e+02   (h-ratio of errors 4.00)   C_y=-76.54   d lnC/dv=0.134
+  v= 60  C_rho=-1.955e+03   (h-ratio of errors 4.00)   C_y=-75.25   d lnC/dv=0.104
+  v= 70  C_rho=-5.321e+03   (h-ratio of errors 4.00)   C_y=-73.98   d lnC/dv=0.100
+  v= 80  C_rho=-1.408e+04   (h-ratio of errors 4.00)   C_y=-72.71   d lnC/dv=0.097
+  v= 90  C_rho=-3.645e+04   (h-ratio of errors 4.00)   C_y=-71.44   d lnC/dv=0.095
+  v=100  C_rho=-9.243e+04   (h-ratio of errors 4.00)   C_y=-70.16   d lnC/dv=0.093
+  v=110  C_rho=-2.293e+05   (h-ratio of errors 4.00)   C_y=-68.87   d lnC/dv=0.091
+gen3_B0.03_k1.5_v300.json k=1.5 B=0.03 ray s=246.7: C_rho(v)=(rho_h/rho_C-1)/h^2 [h=0.00625], C_y=(y_e/y_c-1)/h^2, and ratio of C_rho between h=0.00625 and h=0.003125
+  v= 40  C_rho=+6.990e-04   (h-ratio of errors 3.99)   C_y=+0.00   
+  v= 50  C_rho=+4.023e-03   (h-ratio of errors 4.00)   C_y=+0.00   d lnC/dv=0.175
+  v= 60  C_rho=-2.257e+01   (h-ratio of errors 4.00)   C_y=-21.41   d lnC/dv=0.863
+  v= 70  C_rho=-4.862e+03   (h-ratio of errors 4.00)   C_y=-1238.28   d lnC/dv=0.537
+  v= 80  C_rho=-1.408e+04   (h-ratio of errors 4.00)   C_y=-1264.64   d lnC/dv=0.106
+  v= 90  C_rho=-3.645e+04   (h-ratio of errors 4.00)   C_y=-1263.22   d lnC/dv=0.095
+  v=100  C_rho=-9.243e+04   (h-ratio of errors 4.00)   C_y=-1261.79   d lnC/dv=0.093
+  v=110  C_rho=-2.293e+05   (h-ratio of errors 4.00)   C_y=-1260.35   d lnC/dv=0.091
+gen3_B0.003_k1.5_v300.json k=1.5 B=0.003 ray s=271.2: C_rho(v)=(rho_h/rho_C-1)/h^2 [h=0.00625], C_y=(y_e/y_c-1)/h^2, and ratio of C_rho between h=0.00625 and h=0.003125
+  v= 40  C_rho=-9.598e+02   (h-ratio of errors 4.00)   C_y=-890.74   
+  v= 50  C_rho=-7.220e+04   (h-ratio of errors 4.00)   C_y=-8284.18   d lnC/dv=0.432
+  v= 60  C_rho=-2.103e+05   (h-ratio of errors 4.00)   C_y=-8307.13   d lnC/dv=0.107
+  v= 70  C_rho=-5.732e+05   (h-ratio of errors 4.00)   C_y=-8305.90   d lnC/dv=0.100
+  v= 80  C_rho=-1.519e+06   (h-ratio of errors 4.00)   C_y=-8304.68   d lnC/dv=0.097
+  v= 90  C_rho=-3.936e+06   (h-ratio of errors 4.00)   C_y=-8303.45   d lnC/dv=0.095
+  v=100  C_rho=-9.993e+06   (h-ratio of errors 4.00)   C_y=-8302.22   d lnC/dv=0.093
+  v=110  C_rho=-2.480e+07   (h-ratio of errors 4.00)   C_y=-8300.99   d lnC/dv=0.091
+gen3_B0.003_k1.5_v300.json k=1.5 B=0.003 ray s=246.7: C_rho(v)=(rho_h/rho_C-1)/h^2 [h=0.00625], C_y=(y_e/y_c-1)/h^2, and ratio of C_rho between h=0.00625 and h=0.003125
+  v= 40  C_rho=+1.183e-03   (h-ratio of errors 3.97)   C_y=+0.00   
+  v= 50  C_rho=+4.282e-03   (h-ratio of errors 3.98)   C_y=-0.00   d lnC/dv=0.129
+  v= 60  C_rho=-2.752e+01   (h-ratio of errors 4.00)   C_y=-26.52   d lnC/dv=0.877
+  v= 70  C_rho=-6.720e+04   (h-ratio of errors 4.00)   C_y=-48394.94   d lnC/dv=0.780
+  v= 80  C_rho=-1.508e+06   (h-ratio of errors 4.00)   C_y=-132770.54   d lnC/dv=0.311
+  v= 90  C_rho=-3.936e+06   (h-ratio of errors 4.00)   C_y=-132852.18   d lnC/dv=0.096
+  v=100  C_rho=-9.993e+06   (h-ratio of errors 4.00)   C_y=-132852.61   d lnC/dv=0.093
+  v=110  C_rho=-2.481e+07   (h-ratio of errors 4.00)   C_y=-132853.00   d lnC/dv=0.091
+gen3_B0.03_k0.5_v300.json k=0.5 B=0.03 ray s=271.2: C_rho(v)=(rho_h/rho_C-1)/h^2 [h=0.00625], C_y=(y_e/y_c-1)/h^2, and ratio of C_rho between h=0.00625 and h=0.003125
+  v= 40  C_rho=-8.688e+01   (h-ratio of errors 4.00)   C_y=-39.81   
+  v= 50  C_rho=-2.153e+02   (h-ratio of errors 4.00)   C_y=-40.48   d lnC/dv=0.091
+  v= 60  C_rho=-4.443e+02   (h-ratio of errors 4.00)   C_y=-39.62   d lnC/dv=0.072
+  v= 70  C_rho=-8.487e+02   (h-ratio of errors 4.00)   C_y=-38.90   d lnC/dv=0.065
+  v= 80  C_rho=-1.514e+03   (h-ratio of errors 4.00)   C_y=-38.27   d lnC/dv=0.058
+  v= 90  C_rho=-2.537e+03   (h-ratio of errors 4.00)   C_y=-37.70   d lnC/dv=0.052
+  v=100  C_rho=-4.014e+03   (h-ratio of errors 4.00)   C_y=-37.17   d lnC/dv=0.046
+  v=110  C_rho=-6.031e+03   (h-ratio of errors 4.00)   C_y=-36.66   d lnC/dv=0.041
+gen3_B0.03_k0.5_v300.json k=0.5 B=0.03 ray s=246.7: C_rho(v)=(rho_h/rho_C-1)/h^2 [h=0.00625], C_y=(y_e/y_c-1)/h^2, and ratio of C_rho between h=0.00625 and h=0.003125
+  v= 40  C_rho=+1.056e-03   (h-ratio of errors 4.01)   C_y=+0.00   
+  v= 50  C_rho=+4.439e-03   (h-ratio of errors 4.00)   C_y=+0.00   d lnC/dv=0.144
+  v= 60  C_rho=-2.356e+01   (h-ratio of errors 4.00)   C_y=-22.18   d lnC/dv=0.858
+  v= 70  C_rho=-8.364e+02   (h-ratio of errors 4.00)   C_y=-333.26   d lnC/dv=0.357
+  v= 80  C_rho=-1.512e+03   (h-ratio of errors 4.00)   C_y=-333.64   d lnC/dv=0.059
+  v= 90  C_rho=-2.535e+03   (h-ratio of errors 4.00)   C_y=-332.35   d lnC/dv=0.052
+  v=100  C_rho=-4.012e+03   (h-ratio of errors 4.00)   C_y=-331.08   d lnC/dv=0.046
+  v=110  C_rho=-6.029e+03   (h-ratio of errors 4.00)   C_y=-329.84   d lnC/dv=0.041
+
+# ---- stderr
+

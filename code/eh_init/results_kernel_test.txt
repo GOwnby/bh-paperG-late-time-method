@@ -1,0 +1,22 @@
+ray U=0.3
+  pulse v_s=10: K(tau=30,40,60,80,95)= ['7.085e-04', '4.980e-03', '3.624e-02', '1.315e-02', '6.241e-03']  local decay rate of K at tau=40,60,80,90: [-0.4214  0.0517  0.05    0.0496]
+     predict tail-only v=40: ratio pred/measured = 5.772
+     predict tail-only v=60: ratio pred/measured = 0.889
+     predict tail-only v=80: ratio pred/measured = 0.878
+     predict tail-only v=100: ratio pred/measured = 0.892
+  pulse v_s=3: K(tau=30,40,60,80,95)= ['2.435e-04', '7.035e-04', '3.564e-02', '1.294e-02', '6.140e-03']  local decay rate of K at tau=40,60,80,90: [-0.1455  0.0505  0.05    0.0496]
+     predict tail-only v=40: ratio pred/measured = 0.942
+     predict tail-only v=60: ratio pred/measured = 0.844
+     predict tail-only v=80: ratio pred/measured = 0.857
+     predict tail-only v=100: ratio pred/measured = 0.827
+ray U=1.0
+  pulse v_s=10: K(tau=30,40,60,80,95)= ['1.939e-01', '1.065e-01', '3.624e-02', '1.315e-02', '6.242e-03']  local decay rate of K at tau=40,60,80,90: [0.0571 0.0517 0.05   0.0496]
+     predict tail-only v=40: ratio pred/measured = 0.906
+     predict tail-only v=60: ratio pred/measured = 0.909
+     predict tail-only v=80: ratio pred/measured = 0.896
+     predict tail-only v=100: ratio pred/measured = 0.912
+  pulse v_s=3: K(tau=30,40,60,80,95)= ['1.817e-01', '1.048e-01', '3.567e-02', '1.294e-02', '6.141e-03']  local decay rate of K at tau=40,60,80,90: [0.0571 0.0518 0.05   0.0496]
+     predict tail-only v=40: ratio pred/measured = 0.872
+     predict tail-only v=60: ratio pred/measured = 0.886
+     predict tail-only v=80: ratio pred/measured = 0.874
+     predict tail-only v=100: ratio pred/measured = 0.843

@@ -14,5 +14,5 @@ for t in (-2,0,5,10,20,30,40,60,80,100):
     i=int(np.where(tau==t)[0][0]); print('  tau=%4d  K_PDE %.4e  K_ODE %.4e  ratio %.4f'%(t,Kp[i],Ka[i],Kp[i]/Ka[i]))
 rate=lambda K,t:-(np.log(abs(K[int(t-tau[0])+3]))-np.log(abs(K[int(t-tau[0])-3])))/6
 tr=[t for t in (60,80,100) if t+3<=tau[-1]]
-print('  local decay rate of K_PDE at tau=%s: %s   (kappa_+ = %.4f)'%(tr,' '.join('%.4f'%rate(Kp,t) for t in tr),kp))
+print('  local decay rate of K_PDE at tau=%s: %s   (kappa_+ = %.4f)'%(','.join(str(t) for t in tr),' '.join('%.4f'%rate(Kp,t) for t in tr),kp))
 iw=np.argmin(abs(ws-0.0)); print('  int K_PDE (all tau, trapezoid, tail e^{-kp}) = %.3f vs T0 %.3f'%(np.trapezoid(np.concatenate([Kp,Kp[-1]*np.exp(-kp*np.arange(1,3000))]),dx=1.0),T0))

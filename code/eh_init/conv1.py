@@ -7,7 +7,8 @@ for hs in hs_list:
     s_,v,arrs,hz,U,gp,tt=run(B,k,hs,hs,U1=10.0,v1=v1)
     rf=hz.sol(v[-1])[0]; mu_f=rf/2-MN(rf); rm,rp,km,kpp=inner(mu_f)
     M=mass(S,arrs); PV=arrs[7]
-    print('h=%g  t=%.0fs  mu_f=%.4e  kappa-(mu_f)=%.6f  static %.6f  nan=%d'%(hs,tt,mu_f,km,0.795649,int(np.isnan(arrs[1]).sum())))
+    print('h=%g  mu_f=%.4e  kappa-(mu_f)=%.6f  static %.6f  nan=%d'%(hs,mu_f,km,0.795649,int(np.isnan(arrs[1]).sum())))
+    print('(wall time %.0f s)'%tt,file=sys.stderr)    # timing goes to stderr so that the stdout log is reproducible byte for byte
     for Ux in (0.3,3.0):
         j=int(np.argmin(abs(U-Ux))); line=[]
         for vi in (50,60,70,v1-5):

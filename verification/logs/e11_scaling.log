@@ -1,0 +1,28 @@
+# step e11_scaling
+# cwd code/eh_init
+# commands
+#   MU_F=@mu_f:gen_B0.003_k1.5_A0_U1_w0.3_v110.json /usr/bin/python3 e11_scaling.py gen_B0.003_k1.5_A0_U1_w0.3_v110.json
+#   MU_F=@mu_f:gen_B0.03_k1.5_A0_U1_w0.3_v110.json /usr/bin/python3 e11_scaling.py gen_B0.03_k1.5_A0_U1_w0.3_v110.json
+#   MU_F=@mu_f:gen_B0.05_k1.5_A0_U1_w0.3_v110.json /usr/bin/python3 e11_scaling.py gen_B0.05_k1.5_A0_U1_w0.3_v110.json
+#   MU_F=@mu_f:gen_B0.03_k0.5_A0_U1_w0.3_v110.json /usr/bin/python3 e11_scaling.py gen_B0.03_k0.5_A0_U1_w0.3_v110.json
+#   MU_F=@mu_f:gen_B0.05_k0.5_A0_U1_w0.3_v110.json /usr/bin/python3 e11_scaling.py gen_B0.05_k0.5_A0_U1_w0.3_v110.json
+# return code 0, 94.6 s, 22.9 s cpu
+# ---- stdout
+MU_F=9.935036406183428e-05: r-=1.057356 r+=9.898132 kappa-=0.795545 kappa+=0.048968 T0=44.3161
+R1=0.64476 c1=0.650 c2=0.652
+gen_B0.003_k1.5_A0_U1_w0.3_v110.json k=1.5 B=0.003 mu_f=9.935036406183428e-05: ratio-1 at v= 80: -5.904e-04 90: -5.313e-04 100: -5.451e-04
+MU_F=0.009955525171911894: r-=1.045494 r+=9.918464 kappa-=0.784821 kappa+=0.048880 T0=45.5003
+R1=0.66172 c1=0.668 c2=0.672
+gen_B0.03_k1.5_A0_U1_w0.3_v110.json k=1.5 B=0.03 mu_f=0.009955525171911894: ratio-1 at v= 80: 7.792e-03 90: 7.440e-03 100: 7.147e-03
+MU_F=0.027757015976053623: r-=1.023269 r+=9.955174 kappa-=0.763567 kappa+=0.048722 T0=47.8247
+R1=0.69514 c1=0.701 c2=0.760
+gen_B0.05_k1.5_A0_U1_w0.3_v110.json k=1.5 B=0.05 mu_f=0.027757015976053623: ratio-1 at v= 80: 2.585e-02 90: 2.458e-02 100: 2.366e-02
+MU_F=0.005913153399726312: r-=1.050395 r+=9.910126 kappa-=0.789303 kappa+=0.048916 T0=45.0065
+R1=0.65464 c1=0.660 c2=0.664
+gen_B0.03_k0.5_A0_U1_w0.3_v110.json k=0.5 B=0.03 mu_f=0.005913153399726312: ratio-1 at v= 80: 2.237e-02 90: 2.173e-02 100: 2.117e-02
+MU_F=0.016460698702608134: r-=1.037498 r+=9.931881 kappa-=0.777349 kappa+=0.048822 T0=46.3204
+R1=0.67348 c1=0.680 c2=0.686
+gen_B0.05_k0.5_A0_U1_w0.3_v110.json k=0.5 B=0.05 mu_f=0.016460698702608134: ratio-1 at v= 80: 7.070e-02 90: 6.858e-02 100: 6.673e-02
+
+# ---- stderr
+

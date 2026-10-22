@@ -10,13 +10,12 @@ k=1.5: phi_v(72) extrapolated 9.10e-04, transported tail 9.26e-06 (ratio 98), lo
 k=2.5: phi_v(72) extrapolated 8.06e-04, transported tail 2.11e-07 (ratio 3810), local exponent over v in [70,74]: 3.47 ; single-grid h=0.0125: 3.39
 
 == B=0.03 k=1.5 tail-only, three grids ==
-h=0.05  t=3s  mu_f=9.9555e-03  kappa-(mu_f)=0.784821  static 0.795649  nan=780789
+h=0.05  mu_f=9.9555e-03  kappa-(mu_f)=0.784821  static 0.795649  nan=780789
    U=0.3  v=50 sV=0.16106 rate=-0.0914 [Ori 0.6848] M=4.32e+00 | v=60 sV=-0.78633 rate=-0.0110 [Ori 0.7015] M=5.28e-01 | v=70 sV=-0.78593 rate=0.0466 [Ori 0.7134] M=5.45e-01 | v=95 sV=-0.78627 rate=0.8210 [Ori 0.7322] M=1.40e+07
    U=3  v=50 sV=-0.82657 rate=0.9636 [Ori 0.6848] M=-5.70e+11 | v=60 sV=-0.81004 rate=0.8407 [Ori 0.7015] M=-3.74e+15 | v=70 sV=-0.79999 rate=0.8185 [Ori 0.7134] M=-1.46e+19 | v=95 sV=-0.78834 rate=0.8229 [Ori 0.7322] M=-1.08e+28
-h=0.025  t=6s  mu_f=9.9555e-03  kappa-(mu_f)=0.784821  static 0.795649  nan=3122307
+h=0.025  mu_f=9.9555e-03  kappa-(mu_f)=0.784821  static 0.795649  nan=3122307
    U=0.3  v=50 sV=0.16106 rate=-0.0913 [Ori 0.6848] M=4.32e+00 | v=60 sV=-0.78582 rate=-0.0110 [Ori 0.7015] M=5.28e-01 | v=70 sV=-0.78536 rate=-0.0005 [Ori 0.7134] M=5.22e-01 | v=95 sV=-0.78533 rate=0.8219 [Ori 0.7322] M=-1.59e+05
    U=3  v=50 sV=-0.82742 rate=0.6156 [Ori 0.6848] M=3.48e+11 | v=60 sV=-0.81085 rate=1.1279 [Ori 0.7015] M=-3.55e+14 | v=70 sV=-0.80079 rate=0.8472 [Ori 0.7134] M=-3.16e+18 | v=95 sV=-0.78944 rate=0.8259 [Ori 0.7322] M=-2.94e+27
-/bin/bash: line 69:   881 Killed                  python3 conv1.py 0.03 1.5 100 0.05 0.025 0.0125
 h=0.05 |sigma_v|(U=0.2999,v=95)=0.786267
 h=0.025 |sigma_v|(U=0.2999,v=95)=0.785327
 h=0.0125 |sigma_v|(U=0.2999,v=95)=0.785091

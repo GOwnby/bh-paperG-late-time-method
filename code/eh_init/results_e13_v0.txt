@@ -1,0 +1,6 @@
+gen3_B0.03_k1.5_v300.json ray n=2: ln M_cc at v = (100, 200, 280) for the starting points v0 of the v-constraint
+  v0=60  ln M_cc = 35.460632694 106.766785410 167.238880524   change against v0=60: +0.0e+00 +0.0e+00 +0.0e+00
+  v0=48  ln M_cc = 35.460632694 106.766785410 167.238880524   change against v0=60: +1.5e-12 +1.6e-12 +1.6e-12
+  v0=72  ln M_cc = 35.460632694 106.766785410 167.238880524   change against v0=60: -7.3e-11 -7.3e-11 -7.3e-11
+  v0=84  ln M_cc = 35.460632694 106.766785410 167.238880524   change against v0=60: +5.2e-11 -9.0e-11 -9.0e-11
+VALUE e13_v0_max_change 9.03e-11

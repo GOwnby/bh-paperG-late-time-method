@@ -73,7 +73,7 @@ gen_B0.03_k1.5_A0.02_U0.7_w0.2_v110.json U=1.00 grids ['0.05', '0.025', '0.0125'
 gen_B0.03_k1.5_A0.02_U1_w0.5_v110.json U=1.00 grids ['0.05', '0.025', '0.0125', '0.00625', '0.003125']  mu_f=9.9555e-03 kappa-(mu_f)=0.78482
    [ 60, 64] rate 0.5487  lambda 0.5433  lam-lam'/lam 0.5480  diff2 +0.0006  | rate(lower-order extrap) 0.5487  extrap.disagr 0.0%  |sV| 0.8055
    [ 72, 76] rate 0.5158  lambda 0.5079  lam-lam'/lam 0.5177  diff2 -0.0018  | rate(lower-order extrap) 0.5158  extrap.disagr 0.0%  |sV| 0.7891
-   [ 84, 88] rate 0.3791  lambda 0.2862  lam-lam'/lam 0.6112  diff2 -0.2320  | rate(lower-order extrap) 0.3791  extrap.disagr 0.0%  |sV| 0.7854
+   [ 84, 88] rate 0.3791  lambda 0.2864  lam-lam'/lam 0.6087  diff2 -0.2296  | rate(lower-order extrap) 0.3791  extrap.disagr 0.0%  |sV| 0.7854
    [ 96,100] rate 1.0738  lambda 1.0197  lam-lam'/lam 1.0913  diff2 -0.0175  | rate(lower-order extrap) 1.0738  extrap.disagr 0.0%  |sV| 0.7846
    [104,108] rate 0.8211  lambda 0.8084  lam-lam'/lam 0.8191  diff2 +0.0020  | rate(lower-order extrap) 0.8211  extrap.disagr 0.0%  |sV| 0.7845
    phi_v: v=60: |phi_v|=2.28e-03 local exponent 7.87 ratio to transported tail 157.1 | v=80: |phi_v|=1.44e-04 local exponent 13.10 ratio to transported tail 20.2 | v=100: |phi_v|=2.21e-05 local exponent -6.87 ratio to transported tail 5.4

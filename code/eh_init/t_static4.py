@@ -11,7 +11,8 @@ for (hs,hv) in [(0.2,0.2),(0.1,0.1),(0.05,0.05)]:
     s_,v,arrs,hz,U,gp=build_eh(S,U1,v1,hs,hv,0.0,c=c)
     run2(S,arrs,hs,hv)
     UU,VV=np.meshgrid(U,v); ex=conv(S.fields(UU,VV),gp)
-    print('h',hs,hv,'nu',len(U),'t=%.1f'%(time.time()-t),'nan',int(np.isnan(arrs[1]).sum()))
+    print('h',hs,hv,'nu',len(U),'nan',int(np.isnan(arrs[1]).sum()))
+    print('(wall time %.1f s)'%(time.time()-t),file=sys.stderr)    # timing goes to stderr so that the stdout log is reproducible byte for byte
     for vi in (20,50,100):
         i=int(round(vi/hv)); row=[]
         for Ux in (0.01,0.1,1.0,10.0):

@@ -1,3 +1,6 @@
+# SUPERSEDED -- not used for any number in the paper. This early script compares a kernel measured from the v_s=60 pulse run (continued as
+# exp(-kappa_+ tau)) with the v=300 runs; it gives flux ratios of 1.06-1.145, i.e. it does not reproduce the 4e-4 agreement quoted in the paper.
+# The comparison of the paper is kernel_analytic.py (derived kernel from the ODE transfer function) -> results_kernel_analytic.txt.
 # Compare the kernel convolution (K_inf from the v_s=60 pulse run, continued as exp(-kappa_+ tau) beyond tau=85) with the measured phi_v of the v=300 tail-only runs (B=0.003, U=1).
 import json, numpy as np, analyze, warnings
 warnings.filterwarnings('ignore')

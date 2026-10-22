@@ -1,0 +1,12 @@
+# step regen_gen_coarse
+# cwd verification/tmp/regen
+# commands
+#   /usr/bin/python3 ../../../code/eh_init/gen.py 0.03 1.5 0 1 0.3 110 0.05 0.025
+# return code 0, 54.6 s, 12.1 s cpu
+# ---- stdout
+h=0.05 nu=1797 nv=2201  19s
+h=0.025 nu=3593 nv=4401  30s
+done mu_f=9.9555e-03 kappa-(mu_f)=0.784821
+
+# ---- stderr
+

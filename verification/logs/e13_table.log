@@ -1,0 +1,93 @@
+# step e13_table
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 e13_table.py
+# return code 0, 147.1 s, 34.6 s cpu
+# ---- stdout
+$1/2$ & 0.03 & $-1.3\times10^{-9}$ & $-1.0\times10^{-9}$ & $+6.3\times10^{-9}$ & $+2.2\times10^{-9}$ & $+1.4\times10^{-8}$ & $+3.6\times10^{-10}$ & 360\\
+$3/2$ & 0.03 & $+1.9\times10^{-10}$ & $-3.6\times10^{-9}$ & $-9.2\times10^{-9}$ & $-3.3\times10^{-7}$ & $+3.3\times10^{-7}$ & $+1.2\times10^{-8}$ & 337\\
+$2$ & 0.03 & $-5.8\times10^{-9}$ & $-9.7\times10^{-9}$ & $-1.4\times10^{-8}$ & $-1.1\times10^{-6}$ & $+1.1\times10^{-6}$ & $+1.1\times10^{-7}$ & 327\\
+$3$ & 0.03 & $+7.7\times10^{-10}$ & $-3.0\times10^{-9}$ & $+1.3\times10^{-8}$ & $-1.4\times10^{-6}$ & $+1.4\times10^{-6}$ & $+7.8\times10^{-7}$ & 319\\
+$1/2$ & 0.003 & $+3.7\times10^{-8}$ & $+3.1\times10^{-8}$ & $+2.6\times10^{-8}$ & $+1.6\times10^{-8}$ & $+3.7\times10^{-8}$ & $+1.3\times10^{-10}$ & 343\\
+$3/2$ & 0.003 & $-9.8\times10^{-8}$ & $-9.9\times10^{-8}$ & $-4.5\times10^{-7}$ & $-2.3\times10^{-6}$ & $+2.3\times10^{-6}$ & $+4.5\times10^{-9}$ & 323\\
+('B0.03_k0.5', [28.1, 70.4, 116.7, 178.9], '$+2.5\\times10^{-6}$', '$+1.4\\times10^{-8}$')
+('B0.03_k1.5', [24.4, 63.4, 106.8, 167.2], '$+1.1\\times10^{-5}$', '$+3.3\\times10^{-7}$')
+('B0.03_k2', [23.9, 62.4, 104.1, 162.1], '$+1.3\\times10^{-5}$', '$+1.1\\times10^{-6}$')
+('B0.03_k3', [23.7, 62.1, 103.2, 158.1], '$+1.4\\times10^{-5}$', '$+1.4\\times10^{-6}$')
+('B0.003_k0.5', [18.7, 61.1, 107.6, 170.1], '$+2.0\\times10^{-4}$', '$+3.7\\times10^{-8}$')
+('B0.003_k1.5', [15.6, 55.2, 99.2, 160.5], '$+7.6\\times10^{-4}$', '$+2.3\\times10^{-6}$')
+VALUE e13_B0.03_k0.5_dlnM_v84 -1.3199e-09
+VALUE e13_B0.03_k0.5_lnM_ODE_v84 28.09
+VALUE e13_B0.03_k0.5_dlnM_v140 -1.0313e-09
+VALUE e13_B0.03_k0.5_lnM_ODE_v140 70.43
+VALUE e13_B0.03_k0.5_dlnM_v200 6.2650e-09
+VALUE e13_B0.03_k0.5_lnM_ODE_v200 116.68
+VALUE e13_B0.03_k0.5_dlnM_v280 2.1869e-09
+VALUE e13_B0.03_k0.5_lnM_ODE_v280 178.86
+VALUE e13_B0.03_k0.5_max_dlnM 1.3558e-08
+VALUE e13_B0.03_k0.5_spread_4finest 3.6476e-10
+VALUE e13_B0.03_k0.5_lnK_v280 360.3
+VALUE e13_B0.03_k0.5_max_dlnM_U0.3 2.4891e-06
+VALUE e13_B0.03_k1.5_dlnM_v84 1.8609e-10
+VALUE e13_B0.03_k1.5_lnM_ODE_v84 24.39
+VALUE e13_B0.03_k1.5_dlnM_v140 -3.6088e-09
+VALUE e13_B0.03_k1.5_lnM_ODE_v140 63.41
+VALUE e13_B0.03_k1.5_dlnM_v200 -9.2443e-09
+VALUE e13_B0.03_k1.5_lnM_ODE_v200 106.77
+VALUE e13_B0.03_k1.5_dlnM_v280 -3.3445e-07
+VALUE e13_B0.03_k1.5_lnM_ODE_v280 167.24
+VALUE e13_B0.03_k1.5_max_dlnM 3.3445e-07
+VALUE e13_B0.03_k1.5_spread_4finest 1.2373e-08
+VALUE e13_B0.03_k1.5_lnK_v280 337.0
+VALUE e13_B0.03_k1.5_max_dlnM_U0.3 1.0500e-05
+VALUE e13_B0.03_k2_dlnM_v84 -5.7726e-09
+VALUE e13_B0.03_k2_lnM_ODE_v84 23.93
+VALUE e13_B0.03_k2_dlnM_v140 -9.7427e-09
+VALUE e13_B0.03_k2_lnM_ODE_v140 62.42
+VALUE e13_B0.03_k2_dlnM_v200 -1.4315e-08
+VALUE e13_B0.03_k2_lnM_ODE_v200 104.06
+VALUE e13_B0.03_k2_dlnM_v280 -1.0516e-06
+VALUE e13_B0.03_k2_lnM_ODE_v280 162.15
+VALUE e13_B0.03_k2_max_dlnM 1.0516e-06
+VALUE e13_B0.03_k2_spread_4finest 1.0615e-07
+VALUE e13_B0.03_k2_lnK_v280 326.8
+VALUE e13_B0.03_k2_max_dlnM_U0.3 1.3092e-05
+VALUE e13_B0.03_k3_dlnM_v84 7.7156e-10
+VALUE e13_B0.03_k3_lnM_ODE_v84 23.69
+VALUE e13_B0.03_k3_dlnM_v140 -3.0453e-09
+VALUE e13_B0.03_k3_lnM_ODE_v140 62.05
+VALUE e13_B0.03_k3_dlnM_v200 1.3084e-08
+VALUE e13_B0.03_k3_lnM_ODE_v200 103.17
+VALUE e13_B0.03_k3_dlnM_v280 -1.3882e-06
+VALUE e13_B0.03_k3_lnM_ODE_v280 158.05
+VALUE e13_B0.03_k3_max_dlnM 1.3882e-06
+VALUE e13_B0.03_k3_spread_4finest 7.8124e-07
+VALUE e13_B0.03_k3_lnK_v280 318.7
+VALUE e13_B0.03_k3_max_dlnM_U0.3 1.4499e-05
+VALUE e13_B0.003_k0.5_dlnM_v84 3.7119e-08
+VALUE e13_B0.003_k0.5_lnM_ODE_v84 18.68
+VALUE e13_B0.003_k0.5_dlnM_v140 3.1124e-08
+VALUE e13_B0.003_k0.5_lnM_ODE_v140 61.10
+VALUE e13_B0.003_k0.5_dlnM_v200 2.6454e-08
+VALUE e13_B0.003_k0.5_lnM_ODE_v200 107.57
+VALUE e13_B0.003_k0.5_dlnM_v280 1.6361e-08
+VALUE e13_B0.003_k0.5_lnM_ODE_v280 170.14
+VALUE e13_B0.003_k0.5_max_dlnM 3.7119e-08
+VALUE e13_B0.003_k0.5_spread_4finest 1.2632e-10
+VALUE e13_B0.003_k0.5_lnK_v280 342.7
+VALUE e13_B0.003_k0.5_max_dlnM_U0.3 2.0213e-04
+VALUE e13_B0.003_k1.5_dlnM_v84 -9.7886e-08
+VALUE e13_B0.003_k1.5_lnM_ODE_v84 15.59
+VALUE e13_B0.003_k1.5_dlnM_v140 -9.8737e-08
+VALUE e13_B0.003_k1.5_lnM_ODE_v140 55.18
+VALUE e13_B0.003_k1.5_dlnM_v200 -4.4671e-07
+VALUE e13_B0.003_k1.5_lnM_ODE_v200 99.19
+VALUE e13_B0.003_k1.5_dlnM_v280 -2.3447e-06
+VALUE e13_B0.003_k1.5_lnM_ODE_v280 160.53
+VALUE e13_B0.003_k1.5_max_dlnM 2.3447e-06
+VALUE e13_B0.003_k1.5_spread_4finest 4.4564e-09
+VALUE e13_B0.003_k1.5_lnK_v280 323.5
+VALUE e13_B0.003_k1.5_max_dlnM_U0.3 7.5976e-04
+
+# ---- stderr
+

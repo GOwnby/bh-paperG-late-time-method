@@ -1,0 +1,80 @@
+gen2_B0.03_k1.5_A0_U1_w0.3_v300.json B0.03_k1.5: ratio |M_ODE/M_ext-1| / (level spread of M_ext) at every integer v = 84..290
+  min 0.234 at v=272; percentiles 5,25,50,75,95: 11.7 73.8 154 290 741; fraction of v with ratio < 8: 0.039, < 1: 0.005
+  sign changes of M_ODE/M_ext-1 between consecutive integer v: 82, at v=85,90,91,93,96,98,100,101,102,103,105,110,113,114,115,116,117,122,123,126,130,132,133,134,135,137,139,143,146,149,150,155,160,162,165,167,168,171,180,181,183,184,186,188,190,196,197,199,204,206,213,214,219,221,224,228,234,236,237,242,243,245,246,251,253,258,263,264,265,267,268,269,274,275,276,277,282,283,284,287,288,289; distance of the minimum from the nearest one: 2
+VALUE rr_B0.03_k1.5_min 0.234
+VALUE rr_B0.03_k1.5_vmin 272
+VALUE rr_B0.03_k1.5_nsignchange 82
+VALUE rr_B0.03_k1.5_min_dist_signchange 2
+VALUE rr_B0.03_k1.5_p05 11.7
+VALUE rr_B0.03_k1.5_p25 73.8
+VALUE rr_B0.03_k1.5_p50 154
+VALUE rr_B0.03_k1.5_p75 290
+VALUE rr_B0.03_k1.5_p95 741
+VALUE rr_B0.03_k1.5_frac_lt8 0.039
+VALUE rr_B0.03_k1.5_frac_lt1 0.005
+VALUE rr_B0.03_k1.5_n_lt1 1
+VALUE rr_B0.03_k1.5_n_total 207
+  max relative difference of the two highest Romberg levels of sigma_v over 60<=v<=290: 5.09e-13 (at v=73)
+VALUE rr_B0.03_k1.5_levels_sV_max_60_290 5.09e-13
+  max relative difference of the two highest Romberg levels of phi_v over 60<=v<=290: 1.19e-08 (at v=290)
+VALUE rr_B0.03_k1.5_levels_PV_max_60_290 1.19e-08
+gen2_B0.03_k0.5_A0_U1_w0.3_v300.json B0.03_k0.5: ratio |M_ODE/M_ext-1| / (level spread of M_ext) at every integer v = 84..290
+  min 0.772 at v=223; percentiles 5,25,50,75,95: 6.14 49.7 136 268 685; fraction of v with ratio < 8: 0.058, < 1: 0.005
+  sign changes of M_ODE/M_ext-1 between consecutive integer v: 73, at v=85,89,91,94,95,97,99,101,104,105,106,108,109,113,114,115,118,121,125,129,130,131,132,133,136,139,143,144,146,148,150,154,159,164,165,179,186,188,192,194,196,199,208,211,212,213,214,216,223,224,226,229,230,231,234,244,245,246,247,248,251,253,254,258,264,265,270,274,278,281,282,284,288; distance of the minimum from the nearest one: 0
+VALUE rr_B0.03_k0.5_min 0.772
+VALUE rr_B0.03_k0.5_vmin 223
+VALUE rr_B0.03_k0.5_nsignchange 73
+VALUE rr_B0.03_k0.5_min_dist_signchange 0
+VALUE rr_B0.03_k0.5_p05 6.14
+VALUE rr_B0.03_k0.5_p25 49.7
+VALUE rr_B0.03_k0.5_p50 136
+VALUE rr_B0.03_k0.5_p75 268
+VALUE rr_B0.03_k0.5_p95 685
+VALUE rr_B0.03_k0.5_frac_lt8 0.058
+VALUE rr_B0.03_k0.5_frac_lt1 0.005
+VALUE rr_B0.03_k0.5_n_lt1 1
+VALUE rr_B0.03_k0.5_n_total 207
+  max relative difference of the two highest Romberg levels of sigma_v over 60<=v<=290: 1.09e-12 (at v=62)
+VALUE rr_B0.03_k0.5_levels_sV_max_60_290 1.09e-12
+  max relative difference of the two highest Romberg levels of phi_v over 60<=v<=290: 3.07e-10 (at v=290)
+VALUE rr_B0.03_k0.5_levels_PV_max_60_290 3.07e-10
+gen2_B0.003_k1.5_A0_U1_w0.3_v300.json B0.003_k1.5: ratio |M_ODE/M_ext-1| / (level spread of M_ext) at every integer v = 84..290
+  min 0.0829 at v=285; percentiles 5,25,50,75,95: 0.422 1.42 4.32 18.9 147; fraction of v with ratio < 8: 0.643, < 1: 0.193
+  sign changes of M_ODE/M_ext-1 between consecutive integer v: 60, at v=84,86,93,101,110,111,116,120,121,122,124,125,129,133,137,140,144,146,150,152,153,155,156,159,161,164,165,166,170,173,174,175,184,186,187,188,190,192,194,195,196,197,198,199,202,205,210,211,212,213,223,224,235,236,241,242,249,250,284,285; distance of the minimum from the nearest one: 0
+VALUE rr_B0.003_k1.5_min 0.0829
+VALUE rr_B0.003_k1.5_vmin 285
+VALUE rr_B0.003_k1.5_nsignchange 60
+VALUE rr_B0.003_k1.5_min_dist_signchange 0
+VALUE rr_B0.003_k1.5_p05 0.422
+VALUE rr_B0.003_k1.5_p25 1.42
+VALUE rr_B0.003_k1.5_p50 4.32
+VALUE rr_B0.003_k1.5_p75 18.9
+VALUE rr_B0.003_k1.5_p95 147
+VALUE rr_B0.003_k1.5_frac_lt8 0.643
+VALUE rr_B0.003_k1.5_frac_lt1 0.193
+VALUE rr_B0.003_k1.5_n_lt1 40
+VALUE rr_B0.003_k1.5_n_total 207
+  max relative difference of the two highest Romberg levels of sigma_v over 60<=v<=290: 2.49e-12 (at v=221)
+VALUE rr_B0.003_k1.5_levels_sV_max_60_290 2.49e-12
+  max relative difference of the two highest Romberg levels of phi_v over 60<=v<=290: 1.13e-08 (at v=289)
+VALUE rr_B0.003_k1.5_levels_PV_max_60_290 1.13e-08
+gen2_B0.003_k0.5_A0_U1_w0.3_v300.json B0.003_k0.5: ratio |M_ODE/M_ext-1| / (level spread of M_ext) at every integer v = 84..290
+  min 0.112 at v=248; percentiles 5,25,50,75,95: 0.663 2.31 8.27 29.8 431; fraction of v with ratio < 8: 0.488, < 1: 0.092
+  sign changes of M_ODE/M_ext-1 between consecutive integer v: 76, at v=84,85,95,104,110,112,113,116,117,119,120,123,124,132,137,138,144,146,147,150,153,157,158,160,161,164,167,168,169,170,171,174,175,179,181,183,187,189,192,193,197,199,200,201,205,207,211,217,218,220,221,225,226,228,230,233,235,236,239,240,243,246,249,250,253,254,255,264,265,266,267,269,271,276,285,289; distance of the minimum from the nearest one: 1
+VALUE rr_B0.003_k0.5_min 0.112
+VALUE rr_B0.003_k0.5_vmin 248
+VALUE rr_B0.003_k0.5_nsignchange 76
+VALUE rr_B0.003_k0.5_min_dist_signchange 1
+VALUE rr_B0.003_k0.5_p05 0.663
+VALUE rr_B0.003_k0.5_p25 2.31
+VALUE rr_B0.003_k0.5_p50 8.27
+VALUE rr_B0.003_k0.5_p75 29.8
+VALUE rr_B0.003_k0.5_p95 431
+VALUE rr_B0.003_k0.5_frac_lt8 0.488
+VALUE rr_B0.003_k0.5_frac_lt1 0.092
+VALUE rr_B0.003_k0.5_n_lt1 19
+VALUE rr_B0.003_k0.5_n_total 207
+  max relative difference of the two highest Romberg levels of sigma_v over 60<=v<=290: 2.50e-12 (at v=248)
+VALUE rr_B0.003_k0.5_levels_sV_max_60_290 2.50e-12
+  max relative difference of the two highest Romberg levels of phi_v over 60<=v<=290: 2.63e-10 (at v=287)
+VALUE rr_B0.003_k0.5_levels_PV_max_60_290 2.63e-10

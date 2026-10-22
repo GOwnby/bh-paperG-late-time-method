@@ -1,0 +1,22 @@
+# step check_field_equations
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 check_field_equations.py
+# return code 0, 1.7 s, 0.4 s cpu
+# ---- stdout
+(1) G_ab - 8 pi T_ab at a point; fields obey dn1, dn2, dn3 and the constraints (m_N=5, a_N=10, r=3):
+equations imposed                 E_uu=-1.63e-11  E_vv=-1.88e-10  E_uv=-1.72e-07  E_thth=-2.63e-06
+    size of the individual terms: |G|max = 0.708, |8 pi T|max = 0.708
+perturbed dr_uu+=0.1              E_uu=-6.67e-02  E_vv=-1.88e-10  E_uv=-1.72e-07  E_thth=-2.63e-06
+perturbed dr_vv+=0.1              E_uu=-1.63e-11  E_vv=-6.67e-02  E_uv=-1.72e-07  E_thth=-2.63e-06
+perturbed dr_uv+=0.1              E_uu=-1.63e-11  E_vv=-1.88e-10  E_uv=+6.67e-02  E_thth=-2.63e-06
+perturbed ds_uv+=0.1              E_uu=-1.63e-11  E_vv=-1.88e-10  E_uv=-1.72e-07  E_thth=-1.63e+00
+    box phi with phi_uv = dn3: +6.63e-16 ; with phi_uv = dn3 + 0.1: -3.62e-01
+    1-2M/r = 0.2584215666 ; g^{ab} r_a r_b = 0.2584215666
+
+(2) Kretschmann scalar, generic fields (second derivatives not constrained):
+    K(full Riemann) = -0.03157594 ; K(decomposition) = -0.03157574 ; relative difference 6.5e-06 ; terms: R2^2=0.0472, 8HH/r^2=-0.1059, mass term=0.0272
+    K(full Riemann) = -0.20888395 ; K(decomposition) = -0.20888301 ; relative difference 4.5e-06 ; terms: R2^2=0.2361, 8HH/r^2=-0.5044, mass term=0.0594
+
+# ---- stderr
+

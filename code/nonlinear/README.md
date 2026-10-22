@@ -1,11 +1,11 @@
-# Nonlinear double-null test (Paper E, Section 6)
+# Nonlinear double-null test (Paper G, Section 2; the same code as Paper E, Section 6, doi:10.5281/zenodo.23455587)
 
 Einstein + NED monopole (Hayward profile, additive closure M = mu + M_N(r)) + massless scalar, spherical symmetry.
-Equations, scheme, initial data and validation are in `main.tex`, Section 6; module docstring of `dn2lib.py` repeats them.
+Equations, scheme, initial data and validation are in `../../main.tex`, Section 2; module docstring of `dn2lib.py` repeats them.
 
-Run all scripts from this directory (they write cwd-relative files; `make_fig_nonlinear.py` writes `../../fig_nonlinear.png`).
-Build (once):  `gcc -O3 -shared -fPIC -o libdouble_null.so double_null.c -lm`
-Requires numpy, scipy, matplotlib.  Parameters: m_N = 5, a_N = 10 (ell^2 = a_N/2 m_N = 1).
+Run all scripts from this directory (they write cwd-relative files; `make_fig_nonlinear.py` writes `../../fig_nonlinear.png`, a figure of Paper E that Paper G does not include).
+Build (once):  `sh ../build.sh` (or `gcc -O3 -shared -fPIC -o libdouble_null.so double_null.c -lm` in this directory). `ori_model.py` is `../ori_model.py` (copied from the Paper E archive).
+Requires numpy >= 2.0, scipy, matplotlib (see `../requirements.txt`). Of these scripts, Paper G uses `run_validation.py` and `run_checks.py` (Section 2); the others are Paper E's runs, shipped with their logs and JSON.  Parameters: m_N = 5, a_N = 10 (ell^2 = a_N/2 m_N = 1).
 
 | script | what it produces | wall time (1 core) |
 |---|---|---|
@@ -18,7 +18,7 @@ Requires numpy, scipy, matplotlib.  Parameters: m_N = 5, a_N = 10 (ell^2 = a_N/2
 | `run_checks.py` | A_* independent of v1; saturation of r in v; rates near threshold (A_*-A down to 1e-10) and at the outer edge; sign change of M in u; Raychaudhuri residual in the v direction -> `checks_nonlinear.json` | ~6 min |
 | `run_curvature.py` | Kretschmann scalar on the Cauchy horizon, static check, K = 2048 pi^2 (phi_u phi_v/W)^2, affine length, other tails/amplitudes -> `curvature_nonlinear.json` | ~2 min |
 | `run_kappa_scan.py m_N [h]` | dependence on kappa_-: m_N = 5, 3, 2, 1.6, 1.4 (a_N = 2 m_N); threshold exponent and rate -> `kscan_mN<m_N>.json` | 2-8 min each |
-| `make_fig_nonlinear.py` | `../../fig_nonlinear.png` | ~1 min |
+| `make_fig_nonlinear.py` | `../../fig_nonlinear.png` (Paper E's figure, not used here) | ~1 min |
 
 Notes
 * Collapse flag: r <= 1e-5 or non-finite anywhere on the grid (`run_domain.py` uses 1e-3, which shifts A_* by ~6e-10).

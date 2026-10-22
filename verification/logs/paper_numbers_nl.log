@@ -1,0 +1,32 @@
+# step paper_numbers_nl
+# cwd code/nonlinear
+# commands
+#   /usr/bin/python3 paper_numbers_nl.py
+# return code 0, 0.3 s, 0.1 s cpu
+# ---- stdout
+VALUE static_err_h0.08 1.106e-03
+VALUE static_err_h0.04 2.770e-04
+VALUE static_err_h0.02 6.929e-05
+VALUE static_err_h0.01 1.732e-05
+VALUE static_order_min 1.9975
+VALUE static_order_max 1.9998
+VALUE constraint_u_v0_20_h0.08 2.159e-03
+VALUE constraint_u_v20_60_h0.08 5.315e-03
+VALUE constraint_u_v40_60_h0.08 5.315e-03
+VALUE constraint_u_v0_20_h0.04 5.406e-04
+VALUE constraint_u_v20_60_h0.04 1.329e-03
+VALUE constraint_u_v40_60_h0.04 1.329e-03
+VALUE constraint_u_v0_20_h0.02 1.351e-04
+VALUE constraint_u_v20_60_h0.02 3.324e-04
+VALUE constraint_u_v40_60_h0.02 3.324e-04
+VALUE constraint_u_order_min 1.998
+VALUE constraint_u_order_max 2.000
+VALUE constraint_v_0_20_h0.08 1.178e-03
+VALUE constraint_v_20_58_h0.08 3.376e-04
+VALUE constraint_v_0_20_h0.04 2.942e-04
+VALUE constraint_v_20_58_h0.04 8.442e-05
+VALUE constraint_v_0_20_h0.02 7.347e-05
+VALUE constraint_v_20_58_h0.02 2.111e-05
+
+# ---- stderr
+

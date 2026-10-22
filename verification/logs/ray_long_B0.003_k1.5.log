@@ -1,0 +1,59 @@
+# step ray_long_B0.003_k1.5
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 ray_long.py gen2_B0.003_k1.5_A0_U1_w0.3_v300.json
+# return code 0, 12.0 s, 2.8 s cpu
+# ---- stdout
+gen2_B0.003_k1.5_A0_U1_w0.3_v300.json k=1.5 B=0.003  U=1.0 grids ['0.05', '0.025', '0.0125', '0.00625', '0.003125'] mu_f=9.9350e-05 kappa-(mu_f)=0.795545
+(a) PDE: relative difference between the two highest Romberg levels (y=-r_s/W, rho=-r_v) and sign of M_ext
+   v      M_ext      M       y        rho      r        sigma_v   phi_v
+    60  +8.519e-01  4.3e-07  4.4e-10  1.1e-06  1.0e-12  1.9e-12  3.2e-11
+   100  +4.454e+11  4.7e-06  4.2e-10  3.4e-05  6.5e-12  1.9e-12  1.4e-10
+   108  +1.271e+14  1.0e-04  4.1e-10  3.5e-05  6.9e-12  7.2e-13  1.1e-10
+   115  +1.797e+16  2.2e-04  4.0e-10  8.1e-05  7.6e-12  9.3e-13  1.9e-10
+   120  +6.004e+17  2.0e-04  4.0e-10  6.6e-05  8.1e-12  8.1e-13  1.1e-10
+   130  +7.361e+20  7.2e-04  3.9e-10  3.5e-05  9.0e-12  7.9e-13  2.8e-11
+   140  +9.289e+23  1.9e-03  3.6e-10  1.3e-04  9.5e-12  7.9e-13  8.1e-11
+   160  +2.084e+30  1.0e-02  3.8e-10  5.2e-04  1.1e-11  4.7e-13  2.8e-10
+   180  +4.997e+36  4.5e-02  5.9e-11  1.4e-04  1.4e-11  1.8e-12  1.7e-10
+   200  -8.859e+42  2.5e-01  1.1e-09  1.1e-02  1.8e-11  1.7e-12  9.9e-10
+   240  +2.517e+56  1.0e+00  3.8e-09  2.2e-04  3.1e-11  1.3e-12  1.2e-09
+   290  +1.153e+74  1.3e+00  9.1e-09  2.4e-02  5.5e-11  1.1e-13  1.1e-08
+(b) ray ODE from v0=60 (M_ext(v0)=8.5186e-01): ln M_ode, M_ode/M_ext (PDE; trust only where (a) is small)
+    v=  84  lnM_ode=  15.6032   M_ode/M_ext-1=-1.12e-03   (next level: -1.11e-03)
+    v= 100  lnM_ode=  26.8318   M_ode/M_ext-1=+9.65e-03   (next level: +9.65e-03)
+    v= 108  lnM_ode=  32.4669   M_ode/M_ext-1=-9.14e-03   (next level: -9.03e-03)
+    v= 115  lnM_ode=  37.4105   M_ode/M_ext-1=-1.67e-02   (next level: -1.65e-02)
+    v= 120  lnM_ode=  40.9500   M_ode/M_ext-1=+1.39e-02   (next level: +1.41e-02)
+    v= 130  lnM_ode=  48.0533   M_ode/M_ext-1=+5.37e-03   (next level: +6.09e-03)
+    v= 140  lnM_ode=  55.1946   M_ode/M_ext-1=+6.28e-03   (next level: +8.20e-03)
+    v= 160  lnM_ode=  69.6221   M_ode/M_ext-1=-1.73e-01   (next level: -1.64e-01)
+    v= 180  lnM_ode=  84.2858   M_ode/M_ext-1=-1.94e-01   (next level: -1.56e-01)
+    v= 200  lnM_ode=  99.2026   M_ode/M_ext-1=-2.37e+00   (next level: -2.09e+00)
+    v= 240  lnM_ode= 129.6435   M_ode/M_ext-1=-2.01e-01   (next level: +1.32e+03)
+    v= 290  lnM_ode= 168.3008   M_ode/M_ext-1=-8.93e-01   (next level: -1.34e+00)
+(b) ray ODE from v0=84 (M_ext(v0)=5.9822e+06): ln M_ode, M_ode/M_ext (PDE; trust only where (a) is small)
+    v= 100  lnM_ode=  26.8318   M_ode/M_ext-1=+9.65e-03   (next level: +9.65e-03)
+    v= 108  lnM_ode=  32.4669   M_ode/M_ext-1=-9.14e-03   (next level: -9.03e-03)
+    v= 115  lnM_ode=  37.4105   M_ode/M_ext-1=-1.67e-02   (next level: -1.65e-02)
+    v= 120  lnM_ode=  40.9500   M_ode/M_ext-1=+1.39e-02   (next level: +1.41e-02)
+    v= 130  lnM_ode=  48.0533   M_ode/M_ext-1=+5.37e-03   (next level: +6.09e-03)
+    v= 140  lnM_ode=  55.1946   M_ode/M_ext-1=+6.28e-03   (next level: +8.20e-03)
+    v= 160  lnM_ode=  69.6221   M_ode/M_ext-1=-1.73e-01   (next level: -1.64e-01)
+    v= 180  lnM_ode=  84.2858   M_ode/M_ext-1=-1.94e-01   (next level: -1.56e-01)
+    v= 200  lnM_ode=  99.2026   M_ode/M_ext-1=-2.37e+00   (next level: -2.09e+00)
+    v= 240  lnM_ode= 129.6435   M_ode/M_ext-1=-2.01e-01   (next level: +1.32e+03)
+    v= 290  lnM_ode= 168.3008   M_ode/M_ext-1=-8.93e-01   (next level: -1.34e+00)
+(c) rates from the ODE (v0=60) vs the flux-level relations, 4 < window; kappa-(mu_f)=0.795545
+   v    dlnM/dv(ODE)   4 pi r phi_v^2/rho   lam-lam'/lam   lam   kappa-(mu_f)-(2k+2)/(v+1)   ODE-pred   p_loc
+    84   0.700127      0.700128         0.700131      0.700428   0.736721              -3.66e-02   4.04
+   100   0.703476      0.703474         0.703470      0.703787   0.746040              -4.26e-02   4.63
+   108   0.705336      0.705333         0.705325      0.705684   0.749673              -4.43e-02   4.89
+   140   0.716294      0.716289         0.716276      0.716930   0.760084              -4.38e-02   5.54
+   180   0.739585      0.739585         0.739589      0.740456   0.767920              -2.83e-02   4.99
+   220   0.761520      0.761525         0.761537      0.762061   0.772920              -1.14e-02   3.70
+   260   0.772660      0.772663         0.772668      0.772889   0.776388              -3.73e-03   2.96
+   290   0.776613      0.776614         0.776616      0.776740   0.778363              -1.75e-03   2.74
+
+# ---- stderr
+

@@ -1,0 +1,39 @@
+# step paper_numbers_hist
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 paper_numbers_hist.py
+# return code 0, 0.2 s, 0.1 s cpu
+# ---- stdout
+VALUE static_dsV_U1_v100_h0.2 2.0e-02
+VALUE static_dsV_U1_v100_h0.1 5.6e-03
+VALUE static_dsV_U1_v100_h0.05 1.4e-03
+VALUE B0.04_sigma_v_h0.05 0.77750
+VALUE B0.04_sigma_v_h0.025 0.77654
+VALUE B0.04_richardson 0.77622
+VALUE B0.04_kappa_mu_f 0.775856
+VALUE muloc_U0.1_rel_min 3.4e-04
+VALUE muloc_U0.1_rel_max 7.4e-04
+VALUE muloc_U0.3_percent_min 0.33
+VALUE muloc_U0.3_percent_max 0.93
+VALUE muloc_U0.1_v40 9.95895e-03
+VALUE muloc_mu_f 9.95552e-03
+VALUE muloc_kappa_shift_max 1.0e-04
+VALUE Uc_B0.03 3.637
+VALUE Uc_vfirstnan_B0.03 33.95
+VALUE Uc_B0.04 3.254
+VALUE Uc_vfirstnan_B0.04 33.10
+VALUE Uc_B0.05 2.926
+VALUE Uc_vfirstnan_B0.05 39.30
+VALUE aniso_ratio_min 1.49e-03
+VALUE aniso_ratio_max 1.72e-03
+VALUE aniso_ratio_hs0.1_hv0.025 1.72e-03
+VALUE aniso_ratio_hs0.025_hv0.1 1.49e-03
+VALUE muid_U0.5_v5_h0.05 1.0016
+VALUE muid_U0.5_v5_h0.025 1.0004
+VALUE muid_U1_v30_h0.05 0.9940
+VALUE muid_U1_v30_h0.025 0.9985
+VALUE uniform_nan_v_hU0.04 55.8
+VALUE uniform_nan_v_hU0.02 70.2
+
+# ---- stderr
+

@@ -1,6 +1,6 @@
 """E3 (Paper E, Sec. ray): continuation of the ray integration to v=3000.  Inputs: five-grid extrapolated sigma_v, phi_v of a PDE run up to v_b;
 beyond v_b phi_v = (PDE/kernel ratio at v_b) x kernel convolution (kernel_lib.py), |sigma_v| = kappa_-(mu_f) + Delta(v_b)(v_b/v)^q (q fitted; two bounds shown).
-usage: ray_extend.py gen2_...json [v0=60] [v_b=250] [V=3000]"""
+usage: ray_extend.py gen2_...json [v0=60] [v_b=250] [V=3000]   (environment: KERNEL_MU=<mu_f>, NPZ_SUFFIX=<suffix of the .npz file name>)"""
 import json,sys,numpy as np
 from scipy.interpolate import CubicSpline
 import os, raylib as R, analyze
@@ -44,4 +44,5 @@ for v in (290,400,600,1000,1500,2000,2500,3000):
 vv=np.arange(v0+1,V-1,1.0); res={}
 for mode in out:
     s=out[mode]; res['lnM_'+mode]=np.array([R.lnMof(*s.sol(float(x))) for x in vv])
-np.savez('ray_extend_B%g_k%g%s.npz'%(B,k,'_mu' if os.environ.get('KERNEL_MU') else ''),v=vv,vq=vq,Mext=M,Mlev=F['M'][1],k=k,B=B,km=km,vb=vb,**res)
+# NPZ_SUFFIX (e.g. _gen3) keeps the curves of a gen3 run from overwriting those of the gen2 run of the same B, k (ray_fig.py reads the gen2 ones)
+np.savez('ray_extend_B%g_k%g%s%s.npz'%(B,k,'_mu' if os.environ.get('KERNEL_MU') else '',os.environ.get('NPZ_SUFFIX','')),v=vv,vq=vq,Mext=M,Mlev=F['M'][1],k=k,B=B,km=km,vb=vb,**res)

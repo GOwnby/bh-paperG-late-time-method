@@ -1,87 +1,143 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Angelopoulos et~al.(2018)Angelopoulos, Aretakis, and
+  Gajic]{AngelopoulosAretakisGajic2018}
+Yannis Angelopoulos, Stefanos Aretakis, and Dejan Gajic.
+\newblock Late-time asymptotics for the wave equation on spherically symmetric,
+  stationary spacetimes.
+\newblock \emph{Advances in Mathematics}, 323:\penalty0 529--621, 2018.
+\newblock \doi{10.1016/j.aim.2017.10.027}.
+
 \bibitem[Costa and Franzen(2017)]{CostaFranzen2017}
 Jo{\~a}o~L. Costa and Anne~T. Franzen.
 \newblock Bounded energy waves on the black hole interior of
   {R}eissner--{N}ordstr{\"o}m--de {S}itter.
-\newblock \emph{Annales Henri Poincar{\'e}}, 2017.
+\newblock \emph{Annales Henri Poincar{\'e}}, 18\penalty0 (10):\penalty0
+  3371--3398, 2017.
+\newblock \doi{10.1007/s00023-017-0592-z}.
+\newblock arXiv:1607.01018.
 
 \bibitem[Dafermos(2005)]{Dafermos2005}
 Mihalis Dafermos.
 \newblock The interior of charged black holes and the problem of uniqueness in
   general relativity.
-\newblock \emph{Communications on Pure and Applied Mathematics}, 58:\penalty0
-  445, 2005.
+\newblock \emph{Communications on Pure and Applied Mathematics}, 58\penalty0
+  (4):\penalty0 445--504, 2005.
+\newblock \doi{10.1002/cpa.20071}.
+\newblock arXiv:gr-qc/0307013.
 
-\bibitem[Gundlach et~al.(1994)Gundlach, Price, and
+\bibitem[Dafermos and Rodnianski(2005)]{DafermosRodnianski2005}
+Mihalis Dafermos and Igor Rodnianski.
+\newblock A proof of {P}rice's law for the collapse of a self-gravitating
+  scalar field.
+\newblock \emph{Inventiones Mathematicae}, 162\penalty0 (2):\penalty0 381--457,
+  2005.
+\newblock \doi{10.1007/s00222-005-0450-3}.
+\newblock arXiv:gr-qc/0309115.
+
+\bibitem[Gundlach et~al.(1994{\natexlab{a}})Gundlach, Price, and
   Pullin]{GundlachPricePullin1994}
 Carsten Gundlach, Richard~H. Price, and Jorge Pullin.
 \newblock Late-time behavior of stellar collapse and explosions. {II}.
-  nonlinear evolution.
-\newblock \emph{Physical Review D}, 49:\penalty0 890, 1994.
+  {N}onlinear evolution.
+\newblock \emph{Physical Review D}, 49\penalty0 (2):\penalty0 890--899,
+  1994{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevD.49.890}.
+
+\bibitem[Gundlach et~al.(1994{\natexlab{b}})Gundlach, Price, and
+  Pullin]{GundlachPricePullin1994a}
+Carsten Gundlach, Richard~H. Price, and Jorge Pullin.
+\newblock Late-time behavior of stellar collapse and explosions. {I}.
+  linearized perturbations.
+\newblock \emph{Physical Review D}, 49\penalty0 (2):\penalty0 883,
+  1994{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevD.49.883}.
+\newblock arXiv:gr-qc/9307009.
 
 \bibitem[G{\"u}rsel et~al.(1979)G{\"u}rsel, Novikov, Sandberg, and
   Starobinsky]{Gursel1979}
 Y.~G{\"u}rsel, I.~D. Novikov, V.~D. Sandberg, and A.~A. Starobinsky.
 \newblock Final state of the evolution of the interior of a charged black hole.
-\newblock \emph{Physical Review D}, 19:\penalty0 413, 1979.
-\newblock cited from Ori (1998); not read.
+\newblock \emph{Physical Review D}, 20\penalty0 (6):\penalty0 1260, 1979.
+\newblock \doi{10.1103/PhysRevD.20.1260}.
 
 \bibitem[Hintz and Vasy(2017)]{HintzVasy2017}
 Peter Hintz and Andr{\'a}s Vasy.
 \newblock Analysis of linear waves near the {C}auchy horizon of cosmological
   black holes.
-\newblock \emph{Journal of Mathematical Physics}, 2017.
+\newblock \emph{Journal of Mathematical Physics}, 58\penalty0 (8):\penalty0
+  081509, 2017.
+\newblock \doi{10.1063/1.4996575}.
+\newblock arXiv:1512.08004.
 
 \bibitem[Kehle and Shlapentokh-Rothman(2019)]{KehleShlapentokhRothman2019}
 Christoph Kehle and Yakov Shlapentokh-Rothman.
 \newblock A scattering theory for linear waves on the interior of
   {R}eissner--{N}ordstr{\"o}m black holes.
-\newblock \emph{Annales Henri Poincar\'e}, 20, 2019.
-\newblock arXiv:1804.05438, doi:10.1007/s00023-019-00760-z.
+\newblock \emph{Annales Henri Poincar{\'e}}, 20\penalty0 (5):\penalty0
+  1583--1650, 2019.
+\newblock \doi{10.1007/s00023-019-00760-z}.
+\newblock arXiv:1804.05438.
 
 \bibitem[Luk and Oh(2017)]{LukOh2017}
 Jonathan Luk and Sung-Jin Oh.
 \newblock Proof of linear instability of the {R}eissner--{N}ordstr{\"o}m
   {C}auchy horizon under scalar perturbations.
-\newblock \emph{Duke Mathematical Journal}, 166:\penalty0 437, 2017.
+\newblock \emph{Duke Mathematical Journal}, 166\penalty0 (3):\penalty0
+  437--493, 2017.
+\newblock \doi{10.1215/00127094-3715189}.
 
 \bibitem[Ori(1991)]{Ori1991}
 Amos Ori.
 \newblock Inner structure of a charged black hole: An exact mass-inflation
   solution.
-\newblock \emph{Physical Review Letters}, 67:\penalty0 789, 1991.
+\newblock \emph{Physical Review Letters}, 67\penalty0 (7):\penalty0 789--792,
+  1991.
 \newblock \doi{10.1103/PhysRevLett.67.789}.
 
 \bibitem[Ori(1998)]{Ori1998}
 Amos Ori.
 \newblock Transmission and reflection coefficients for a scalar field inside a
   charged black hole.
-\newblock \emph{Physical Review D}, 57:\penalty0 2621, 1998.
+\newblock \emph{Physical Review D}, 57\penalty0 (4):\penalty0 2621--2623, 1998.
+\newblock \doi{10.1103/PhysRevD.57.2621}.
 \newblock arXiv:gr-qc/9711034.
 
-\bibitem[Ownby(2026)]{PaperE}
+\bibitem[Ownby(2026{\natexlab{a}})]{PaperA}
 Gracen Ownby.
-\newblock Inner-horizon stability of the hayward metric: closure classes in the
-  ori model, the evaporation clock and a nonlinear double-null test (paper e of
-  this series), 2026.
-\newblock accompanying manuscript.
+\newblock {Evaporation Toward a Degenerate Horizon: Islands, Asymptotics and
+  the Horizonless Branch of the Hayward Black Hole}.
+\newblock Zenodo, \doi{10.5281/zenodo.23455575}, 2026{\natexlab{a}}.
+
+\bibitem[Ownby(2026{\natexlab{b}})]{PaperE}
+Gracen Ownby.
+\newblock {Inner-Horizon Stability of the Hayward Metric: Closure Classes in
+  the Ori Model, the Evaporation Clock and a Nonlinear Double-Null Test}.
+\newblock Zenodo, \doi{10.5281/zenodo.23455587}, 2026{\natexlab{b}}.
+
+\bibitem[Ownby(2026{\natexlab{c}})]{PaperF}
+Gracen Ownby.
+\newblock {The Mass-Tracking Closure in Four-Dimensional Quasi-Topological
+  Gravity: Double-Null Equations, an Exact Generalized-Mass Law and Evolution
+  from Event-Horizon-Regular Data}.
+\newblock Zenodo, \doi{10.5281/zenodo.23455595}, 2026{\natexlab{c}}.
 
 \bibitem[Poisson and Israel(1990)]{PoissonIsrael1990}
 Eric Poisson and Werner Israel.
 \newblock Internal structure of black holes.
-\newblock \emph{Physical Review D}, 41:\penalty0 1796, 1990.
+\newblock \emph{Physical Review D}, 41\penalty0 (6):\penalty0 1796, 1990.
 \newblock \doi{10.1103/PhysRevD.41.1796}.
 
 \bibitem[Price(1972)]{Price1972}
 Richard~H. Price.
 \newblock Nonspherical perturbations of relativistic gravitational collapse.
-  {I}. scalar and gravitational perturbations.
-\newblock \emph{Physical Review D}, 5:\penalty0 2419, 1972.
+  {I}. {S}calar and gravitational perturbations.
+\newblock \emph{Physical Review D}, 5\penalty0 (10):\penalty0 2419--2438, 1972.
+\newblock \doi{10.1103/PhysRevD.5.2419}.
 
 \end{thebibliography}

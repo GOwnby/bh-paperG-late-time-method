@@ -9,5 +9,5 @@ m_N=5  r-=1.05747 r+=9.89793 kappa-=0.79565 kappa+=0.04897  kappa-/kappa+=16.248
   tau=  60  K_PDE 3.6145e-02  K_ODE 3.6139e-02  ratio 1.0002
   tau=  80  K_PDE 1.3111e-02  K_ODE 1.3109e-02  ratio 1.0002
   tau= 100  beyond the run (tau_max=88)
-  local decay rate of K_PDE at tau=[60, 80]: 0.0517 0.0500   (kappa_+ = 0.0490)
+  local decay rate of K_PDE at tau=60,80: 0.0517 0.0500   (kappa_+ = 0.0490)
   int K_PDE (all tau, trapezoid, tail e^{-kp}) = 44.312 vs T0 44.304

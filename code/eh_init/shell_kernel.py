@@ -1,6 +1,7 @@
 # Ori shell model ('hn' closure, m_N=5, a_N=10) driven by the kernel-filtered ingoing flux  dm_-/dv = c phi_v(v)^2,  phi_v = K_analytic * f,
 # compared with (a) the PDE rate of the Romberg-extrapolated M (tail-only runs, B=0.03) and (b) the same shell model driven by the unfiltered power-law tail.
-import numpy as np, json, sys, warnings
+import numpy as np, json, sys, os, warnings
+sys.path.insert(0,os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'))   # ori_model.py lives in code/
 from scipy.signal import fftconvolve
 from scipy.interpolate import CubicSpline
 from scipy.integrate import solve_ivp

@@ -1,0 +1,23 @@
+# step shell_kernel
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 shell_kernel.py
+# return code 0, 58.1 s, 13.7 s cpu
+# ---- stdout
+k=1.5 B=0.03   windows [60, 72, 84, 96, 104]
+  PDE (Romberg M)            [0.6868 0.6892 0.6911 0.6931 0.6947]
+  shell, kernel-filtered     [0.6832 0.6867 0.6891 0.6914 0.693 ]
+  shell(filtered) + [|sigma_v| - kappa_-(mu_f)] (measured) [0.6864 0.6886 0.6903 0.6921 0.6935]
+  |sigma_v|-kappa_-(mu_f) (PDE, U=1, window mean) [0.0032 0.002  0.0012 0.0007 0.0005]
+  power-law formula kappa_-(mu_f)-(2k+2)/(v+1) at window mid [0.7055 0.7182 0.7273 0.7343 0.7381]
+  kappa_-(m_-(v)) at window starts [0.7848 0.7848 0.7848 0.7848 0.7848]   -2 kappa_+ = -0.09793748
+k=0.5 B=0.03   windows [60, 72, 84, 96, 104]
+  PDE (Romberg M)            [0.7338 0.74   0.7457 0.751  0.7543]
+  shell, kernel-filtered     [0.7213 0.7298 0.7375 0.7444 0.7486]
+  shell(filtered) + [|sigma_v| - kappa_-(mu_f)] (measured) [0.7328 0.7391 0.7449 0.7504 0.7538]
+  |sigma_v|-kappa_-(mu_f) (PDE, U=1, window mean) [0.0115 0.0093 0.0074 0.006  0.0052]
+  power-law formula kappa_-(mu_f)-(2k+2)/(v+1) at window mid [0.7417 0.7493 0.7548 0.759  0.7613]
+  kappa_-(m_-(v)) at window starts [0.7893 0.7893 0.7893 0.7893 0.7893]   -2 kappa_+ = -0.09793748
+
+# ---- stderr
+

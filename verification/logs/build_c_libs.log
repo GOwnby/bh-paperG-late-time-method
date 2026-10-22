@@ -1,0 +1,10 @@
+# step build_c_libs
+# cwd .
+# commands
+#   sh code/build.sh
+# return code 0, 4.8 s, 1.0 s cpu
+# ---- stdout
+built: eh_init/{libdouble_null,libstream,libstream2}.so nonlinear/libdouble_null.so
+
+# ---- stderr
+

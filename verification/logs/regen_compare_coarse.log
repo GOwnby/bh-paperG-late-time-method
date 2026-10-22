@@ -1,0 +1,18 @@
+# step regen_compare_coarse
+# cwd code/eh_init
+# commands
+#   /usr/bin/python3 regen_compare.py ../../verification/tmp/regen/gen_B0.03_k1.5_A0_U1_w0.3_v110.json gen_B0.03_k1.5_A0_U1_w0.3_v110.json
+# return code 0, 0.9 s, 0.2 s cpu
+# ---- stdout
+h=0.05      M   max relative difference 0.00e+00
+h=0.05      sV  max relative difference 0.00e+00
+h=0.05      PV  max relative difference 0.00e+00
+h=0.025     M   max relative difference 0.00e+00
+h=0.025     sV  max relative difference 0.00e+00
+h=0.025     PV  max relative difference 0.00e+00
+VALUE regen_grids_compared 2
+VALUE regen_max_rel_diff 0.0e+00
+VALUE regen_mu_f_rel_diff 0.0e+00
+
+# ---- stderr
+

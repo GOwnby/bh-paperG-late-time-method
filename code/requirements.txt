@@ -1,0 +1,2 @@
+# the requirements are listed once, in ../requirements.txt (Python >= 3.10, numpy >= 2.0, scipy >= 1.11, sympy, mpmath, matplotlib; gcc to build the C libraries)
+-r ../requirements.txt
